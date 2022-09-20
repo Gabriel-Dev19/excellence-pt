@@ -52,7 +52,7 @@
         </div>
       </div>
       <div class="col-md-10 col-lg-4 mt-xs-50 mt-sm-50 mt-lg-0 mx-auto pb-20 px-0">
-        <img src="../assets/img/map-location.webp" class="img-fluid" alt="Atendimento Excellence Detetives">
+        <img src="../assets/img/map-location.svg" class="img-fluid" alt="Atendimento Excellence Detetives">
       </div>
     </div>
   </div>
