@@ -1,21 +1,21 @@
 <template>
   <div class="container">
     <h2 class="text-vermelho mb-1 fs-xs-25 text-uppercase fw-700 text-center">
-      Detetive particular em Aveiro
+      Detetive particular em Setúbal
     </h2>
     <div class="d-flex justify-content-center">
       <ion-icon class="fs-30 text-vermelho" name="chevron-down-outline" />
     </div>
     <div class="mt-xs-20 mt-sm-20 mt-md-50">
       <h3 class="col-md-5 mb-xs-30 mb-sm-30 mb-md-10 mr-3 text-xs-center text-sm-center text-md-left px-0 fw-700 float-left">
-        A Excellence <span class="text-vermelho">está em Aveiro</span> a mais de 25 anos
+        A Excellence <span class="text-vermelho">está em Setúbal</span> a mais de 25 anos
         proporcionando a seus clientes <span class="text-vermelho">a verdade que eles tanto buscam.</span>
       </h3>
       <p class="fw-500 text-justify">
-        Se você está procurando um Detetive Particular em Aveiro acabou de encontrar!
+        Se você está procurando um Detetive Particular em Setúbal acabou de encontrar!
       </p>
       <p class="fw-500 text-justify">
-        A Excellence Agência de Detetives Particulares está em Aveiro a mais de 25 anos proporcionando a seus clientes
+        A Excellence Agência de Detetives Particulares está em Setúbal a mais de 25 anos proporcionando a seus clientes
         a verdade que eles tanto buscam, tudo isso dentro do mais absoluto sigilo e discrição. Nosso objetivo é levar o
         resultado no menor tempo possível e com a eficiência necessária.
       </p>
@@ -37,32 +37,14 @@
           <div class="position-relative border shadow border-radius-10 mt-30 overflow-hidden col-12 d-flex row mx-auto pr-0 pt-1 pb-30 pl-65">
             <div class="d-flex div-bolinha-letra-cidade justify-content-center align-items-center">
               <h5 class="fw-600 mb-0">
-                A
+                S
               </h5>
             </div>
-            <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="Agueda">
-              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Águeda
+            <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="Seixal">
+              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Seixal
             </a>
-            <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="Aveiro">
-              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Aveiro
-            </a>
-          </div>
-        </div>
-      </section>
-      <section class="col-12 px-0">
-        <div class="container px-xs-0">
-          <!-- Cidades B -->
-          <div class="position-relative border shadow border-radius-10 mt-30 overflow-hidden col-12 d-flex row mx-auto pr-0 pt-1 pb-30 pl-65">
-            <div class="d-flex div-bolinha-letra-cidade justify-content-center align-items-center">
-              <h5 class="fw-600 mb-0">
-                O
-              </h5>
-            </div>
-            <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="OliveiraDeAzemeis">
-              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Oliveira de Azeméis
-            </a>
-            <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="Ovar">
-              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Ovar
+            <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="Setubal">
+              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Setúbal
             </a>
           </div>
         </div>
@@ -88,7 +70,7 @@ export default {
   components: { BtnForm, BtnWhatsapp },
   layout: 'LayoutSobre',
   head: {
-    title: 'Excellence - Detetive particular em Aveiro'
+    title: 'Excellence - Detetive particular em Setúbal'
   },
   mounted () {
     this.$smoothScroll({
@@ -98,32 +80,16 @@ export default {
     })
   },
   methods: {
-    Agueda () {
-      this.$router.push('/detective-privado-em-Aveiro/detective-privado-em-Agueda/#sobre')
+    Seixal () {
+      this.$router.push('/detective-privado-em-Setubal/detective-privado-em-Seixal/#sobre')
       this.$smoothScroll({
         scrollTo: document.getElementById('sobre'),
         duration: 500,
         offset: -100
       })
     },
-    Aveiro () {
-      this.$router.push('/detective-privado-em-Aveiro/detective-privado-em-Aveiro/#sobre')
-      this.$smoothScroll({
-        scrollTo: document.getElementById('sobre'),
-        duration: 500,
-        offset: -100
-      })
-    },
-    OliveiraDeAzemeis () {
-      this.$router.push('/detective-privado-em-Aveiro/detective-privado-em-Oliveira-de-Azemeis/#sobre')
-      this.$smoothScroll({
-        scrollTo: document.getElementById('sobre'),
-        duration: 500,
-        offset: -100
-      })
-    },
-    Ovar () {
-      this.$router.push('/detective-privado-em-Aveiro/detective-privado-em-Ovar/#sobre')
+    Setubal () {
+      this.$router.push('/detective-privado-em-Setubal/detective-privado-em-Setubal/#sobre')
       this.$smoothScroll({
         scrollTo: document.getElementById('sobre'),
         duration: 500,

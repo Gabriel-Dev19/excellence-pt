@@ -1,21 +1,21 @@
 <template>
   <div class="container">
     <h2 class="text-vermelho mb-1 fs-xs-25 text-uppercase fw-700 text-center">
-      Detetive particular em Goiânia - GO
+      Detective privado em Vila Real
     </h2>
     <div class="d-flex justify-content-center">
       <ion-icon class="fs-30 text-vermelho" name="chevron-down-outline" />
     </div>
     <div class="mt-xs-20 mt-sm-20 mt-md-50">
       <h3 class="col-md-5 mb-xs-30 mb-sm-30 mb-md-10 mr-3 text-xs-center text-sm-center text-md-left px-0 fw-700 float-left">
-        A Excellence <span class="text-vermelho">está em Goiânia - GO</span> a mais de 25 anos
+        A Excellence <span class="text-vermelho">está em Vila Real</span> a mais de 25 anos
         proporcionando a seus clientes <span class="text-vermelho">a verdade que eles tanto buscam.</span>
       </h3>
       <p class="fw-500 text-justify">
-        Se você está procurando um Detetive Particular em Goiânia - GO acabou de encontrar!
+        Se você está procurando um Detective Privado em Vila Real acabou de encontrar!
       </p>
       <p class="fw-500 text-justify">
-        A Excellence Agência de Detetives Particulares está em Goiânia - GO a mais de 25 anos proporcionando a seus clientes
+        A Excellence Agência de Detectives Privados está em Vila Real a mais de 25 anos proporcionando a seus clientes
         a verdade que eles tanto buscam, tudo isso dentro do mais absoluto sigilo e discrição. Nosso objetivo é levar o
         resultado no menor tempo possível e com a eficiência necessária.
       </p>
@@ -47,7 +47,7 @@ export default {
   components: { BtnForm },
   layout: 'LayoutSobre',
   head: {
-    title: 'Excellence - Detetive particular em Goiânia - GO'
+    title: 'Excellence - Detective Privado em Vila Real'
   },
   mounted () {
     this.$smoothScroll({

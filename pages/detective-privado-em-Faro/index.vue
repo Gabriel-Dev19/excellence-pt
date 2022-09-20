@@ -1,21 +1,21 @@
 <template>
   <div class="container">
     <h2 class="text-vermelho mb-1 fs-xs-25 text-uppercase fw-700 text-center">
-      Detetive particular em Aveiro
+      Detetive particular em Faro
     </h2>
     <div class="d-flex justify-content-center">
       <ion-icon class="fs-30 text-vermelho" name="chevron-down-outline" />
     </div>
     <div class="mt-xs-20 mt-sm-20 mt-md-50">
       <h3 class="col-md-5 mb-xs-30 mb-sm-30 mb-md-10 mr-3 text-xs-center text-sm-center text-md-left px-0 fw-700 float-left">
-        A Excellence <span class="text-vermelho">está em Aveiro</span> a mais de 25 anos
+        A Excellence <span class="text-vermelho">está em Faro</span> a mais de 25 anos
         proporcionando a seus clientes <span class="text-vermelho">a verdade que eles tanto buscam.</span>
       </h3>
       <p class="fw-500 text-justify">
-        Se você está procurando um Detetive Particular em Aveiro acabou de encontrar!
+        Se você está procurando um Detetive Particular em Faro acabou de encontrar!
       </p>
       <p class="fw-500 text-justify">
-        A Excellence Agência de Detetives Particulares está em Aveiro a mais de 25 anos proporcionando a seus clientes
+        A Excellence Agência de Detetives Particulares está em Faro a mais de 25 anos proporcionando a seus clientes
         a verdade que eles tanto buscam, tudo isso dentro do mais absoluto sigilo e discrição. Nosso objetivo é levar o
         resultado no menor tempo possível e com a eficiência necessária.
       </p>
@@ -40,11 +40,38 @@
                 A
               </h5>
             </div>
-            <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="Agueda">
-              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Águeda
+            <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="Albufeira">
+              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Albufeira
             </a>
-            <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="Aveiro">
-              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Aveiro
+          </div>
+        </div>
+      </section>
+      <section class="col-12 px-0">
+        <div class="container px-xs-0">
+          <!-- Cidades B -->
+          <div class="position-relative border shadow border-radius-10 mt-30 overflow-hidden col-12 d-flex row mx-auto pr-0 pt-1 pb-30 pl-65">
+            <div class="d-flex div-bolinha-letra-cidade justify-content-center align-items-center">
+              <h5 class="fw-600 mb-0">
+                F
+              </h5>
+            </div>
+            <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="Faro">
+              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Faro
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="col-12 px-0">
+        <div class="container px-xs-0">
+          <!-- Cidades B -->
+          <div class="position-relative border shadow border-radius-10 mt-30 overflow-hidden col-12 d-flex row mx-auto pr-0 pt-1 pb-30 pl-65">
+            <div class="d-flex div-bolinha-letra-cidade justify-content-center align-items-center">
+              <h5 class="fw-600 mb-0">
+                L
+              </h5>
+            </div>
+            <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="Loule">
+              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Loulé
             </a>
           </div>
         </div>
@@ -58,11 +85,23 @@
                 O
               </h5>
             </div>
-            <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="OliveiraDeAzemeis">
-              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Oliveira de Azeméis
+            <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="Olhao">
+              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Olhão
             </a>
-            <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="Ovar">
-              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Ovar
+          </div>
+        </div>
+      </section>
+      <section class="col-12 px-0">
+        <div class="container px-xs-0">
+          <!-- Cidades B -->
+          <div class="position-relative border shadow border-radius-10 mt-30 overflow-hidden col-12 d-flex row mx-auto pr-0 pt-1 pb-30 pl-65">
+            <div class="d-flex div-bolinha-letra-cidade justify-content-center align-items-center">
+              <h5 class="fw-600 mb-0">
+                P
+              </h5>
+            </div>
+            <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="Portimao">
+              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Portimão
             </a>
           </div>
         </div>
@@ -88,7 +127,7 @@ export default {
   components: { BtnForm, BtnWhatsapp },
   layout: 'LayoutSobre',
   head: {
-    title: 'Excellence - Detetive particular em Aveiro'
+    title: 'Excellence - Detetive particular em Faro'
   },
   mounted () {
     this.$smoothScroll({
@@ -98,32 +137,40 @@ export default {
     })
   },
   methods: {
-    Agueda () {
-      this.$router.push('/detective-privado-em-Aveiro/detective-privado-em-Agueda/#sobre')
+    Albufeira () {
+      this.$router.push('/detective-privado-em-Faro/detective-privado-em-Albufeira/#sobre')
       this.$smoothScroll({
         scrollTo: document.getElementById('sobre'),
         duration: 500,
         offset: -100
       })
     },
-    Aveiro () {
-      this.$router.push('/detective-privado-em-Aveiro/detective-privado-em-Aveiro/#sobre')
+    Faro () {
+      this.$router.push('/detective-privado-em-Faro/detective-privado-em-Faro/#sobre')
       this.$smoothScroll({
         scrollTo: document.getElementById('sobre'),
         duration: 500,
         offset: -100
       })
     },
-    OliveiraDeAzemeis () {
-      this.$router.push('/detective-privado-em-Aveiro/detective-privado-em-Oliveira-de-Azemeis/#sobre')
+    Loule () {
+      this.$router.push('/detective-privado-em-Faro/detective-privado-em-Loule/#sobre')
       this.$smoothScroll({
         scrollTo: document.getElementById('sobre'),
         duration: 500,
         offset: -100
       })
     },
-    Ovar () {
-      this.$router.push('/detective-privado-em-Aveiro/detective-privado-em-Ovar/#sobre')
+    Olhao () {
+      this.$router.push('/detective-privado-em-Faro/detective-privado-em-Olhao/#sobre')
+      this.$smoothScroll({
+        scrollTo: document.getElementById('sobre'),
+        duration: 500,
+        offset: -100
+      })
+    },
+    Portimao () {
+      this.$router.push('/detective-privado-em-Faro/detective-privado-em-Portimao/#sobre')
       this.$smoothScroll({
         scrollTo: document.getElementById('sobre'),
         duration: 500,
