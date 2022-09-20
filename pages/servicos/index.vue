@@ -180,6 +180,13 @@ export default {
     BtnForm
   },
   layout: 'LayoutServicos',
+  head: {
+    link: [
+      { rel: 'alternate', href: 'https://excellencedetetives.com.br/servicos/', hreflang: 'x-default' },
+      { rel: 'alternate', href: 'https://excellencedetetives.com.br/servicos/', hreflang: 'pt-br' },
+      { rel: 'alternate', href: 'https://excellencedetectives.pt/servicos/', hreflang: 'pt' }
+    ]
+  },
   mounted () {
     if (window.location.href === 'https://excellencedetetives.com.br/servicos/#servicos') {
       this.$smoothScroll({

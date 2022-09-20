@@ -111,7 +111,11 @@
 export default {
   layout: 'LayoutServicos',
   head: {
-    title: 'Política de privacidade e política de Cookies'
+    link: [
+      { rel: 'alternate', href: 'https://excellencedetetives.com.br/politica-de-privacidade/', hreflang: 'x-default' },
+      { rel: 'alternate', href: 'https://excellencedetetives.com.br/politica-de-privacidade/', hreflang: 'pt-br' },
+      { rel: 'alternate', href: 'https://excellencedetectives.pt/politica-de-privacidade/', hreflang: 'pt' }
+    ]
   },
   mounted () {
     this.$smoothScroll({

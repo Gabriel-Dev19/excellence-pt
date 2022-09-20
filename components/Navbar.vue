@@ -96,32 +96,56 @@
                   </button>
                   <b-collapse id="collapse-estados" class="pl-20">
                     <div class="pb-15 mt-1">
-                      <button class="btn d-flex align-items-center fw-500 px-0 py-0" @click.prevent="SantaCatarina">
-                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Santa Catarina
+                      <button class="btn d-flex align-items-center fw-500 px-0 py-0" @click.prevent="Aveiro">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Aveiro
                       </button>
-                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="Parana">
-                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Paraná
+                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="Braga">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Braga
                       </button>
-                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="RioGrandeDoSul">
-                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Rio Grande do Sul
+                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="Braganca">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Bragança
                       </button>
-                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="SaoPaulo">
-                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> São Paulo
+                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="CasteloBranco">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Castelo Branco
                       </button>
-                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="RioDeJaneiro">
-                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Rio de Janeiro
+                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="Coimbra">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Coimbra
                       </button>
-                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="DistritoFederal">
-                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Distrito Federal
+                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="Evora">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Evora
                       </button>
-                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="MinasGerais">
-                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Minas Gerais
+                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="Faro">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Faro
                       </button>
-                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="MatoGrosso">
-                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Mato Grosso do Sul
+                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="Guarda">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Guarda
                       </button>
-                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="Goias">
-                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Goiás
+                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="Leiria">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Leiria
+                      </button>
+                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="Lisboa">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Lisboa
+                      </button>
+                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="Portalegre">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Portalegre
+                      </button>
+                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="Porto">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Portalegre
+                      </button>
+                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="Santarem">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Santarém
+                      </button>
+                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="Setubal">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Setúbal
+                      </button>
+                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="VianaDoCastelo">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Viana do Castelo
+                      </button>
+                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="VilaReal">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Vila Real
+                      </button>
+                      <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="Viseu">
+                        <ion-icon class="text-vermelho fs-16 mr-1" name="navigate-outline" /> Viseu
                       </button>
                     </div>
                   </b-collapse>
@@ -365,49 +389,89 @@
                   <div class="col-12 position-relative cursor-normal px-10 py-10 rounded shadow-lg d-flex justify-content-center bg-vermelho-pouco-escuro h-100">
                     <div id="seta-dropdown" class="bg-vermelho-pouco-escuro" />
                     <div class="col-12 px-0">
-                      <button class="btn btn-dark d-flex align-items-center col-12" @click.prevent="SantaCatarina">
+                      <button class="btn btn-dark d-flex align-items-center col-12" @click.prevent="Aveiro">
                         <ion-icon class="fs-22 mr-1" name="location-outline" />
-                        Santa Catarina
+                        Aveiro
                         <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
                       </button>
-                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="Parana">
+                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="Braga">
                         <ion-icon class="fs-22 mr-1" name="location-outline" />
-                        Paraná
+                        Braga
                         <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
                       </button>
-                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="RioGrandeDoSul">
+                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="Braganca">
                         <ion-icon class="fs-22 mr-1" name="location-outline" />
-                        Rio Grande do Sul
+                        Bragança
                         <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
                       </button>
-                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="SaoPaulo">
+                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="CasteloBranco">
                         <ion-icon class="fs-22 mr-1" name="location-outline" />
-                        São Paulo
+                        Castelo Branco
                         <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
                       </button>
-                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="RioDeJaneiro">
+                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="Coimbra">
                         <ion-icon class="fs-22 mr-1" name="location-outline" />
-                        Rio de Janeiro
+                        Coimbra
                         <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
                       </button>
-                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="DistritoFederal">
+                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="Evora">
                         <ion-icon class="fs-22 mr-1" name="location-outline" />
-                        Distrito Federal
+                        Évora
                         <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
                       </button>
-                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="MinasGerais">
+                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="Faro">
                         <ion-icon class="fs-22 mr-1" name="location-outline" />
-                        Minas Gerais
+                        Faro
                         <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
                       </button>
-                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="MatoGrosso">
+                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="Guarda">
                         <ion-icon class="fs-22 mr-1" name="location-outline" />
-                        Mato Grosso do Sul
+                        Guarda
                         <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
                       </button>
-                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="Goias">
+                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="Leiria">
                         <ion-icon class="fs-22 mr-1" name="location-outline" />
-                        Goiás
+                        Leiria
+                        <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
+                      </button>
+                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="Lisboa">
+                        <ion-icon class="fs-22 mr-1" name="location-outline" />
+                        Lisboa
+                        <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
+                      </button>
+                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="Portalegre">
+                        <ion-icon class="fs-22 mr-1" name="location-outline" />
+                        Portalegre
+                        <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
+                      </button>
+                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="Porto">
+                        <ion-icon class="fs-22 mr-1" name="location-outline" />
+                        Porto
+                        <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
+                      </button>
+                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="Santarem">
+                        <ion-icon class="fs-22 mr-1" name="location-outline" />
+                        Santarém
+                        <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
+                      </button>
+                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="Setubal">
+                        <ion-icon class="fs-22 mr-1" name="location-outline" />
+                        Setúbal
+                        <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
+                      </button>
+                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="VianaDoCastelo">
+                        <ion-icon class="fs-22 mr-1" name="location-outline" />
+                        Viana do Castelo
+                        <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
+                      </button>
+                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="VilaReal">
+                        <ion-icon class="fs-22 mr-1" name="location-outline" />
+                        Vila Real
+                        <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
+                      </button>
+                      <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="Viseu">
+                        <ion-icon class="fs-22 mr-1" name="location-outline" />
+                        Viseu
                         <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
                       </button>
                     </div>
@@ -522,48 +586,88 @@ export default {
     },
 
     // Cidades
-    SantaCatarina () {
-      this.$router.push('/detetive-particular-em-Santa-Catarina/#sobre')
+    Aveiro () {
+      this.$router.push('/detetive-particular-no-Aveiro/#sobre')
       this.ScrollCidades()
       this.HideNav()
     },
-    Parana () {
-      this.$router.push('/detetive-particular-no-Parana/#sobre')
+    Braga () {
+      this.$router.push('/detetive-particular-no-Braga/#sobre')
       this.ScrollCidades()
       this.HideNav()
     },
-    RioGrandeDoSul () {
-      this.$router.push('/detetive-particular-no-Rio-Grande-do-Sul/#sobre')
+    Braganca () {
+      this.$router.push('/detetive-particular-no-Braganca/#sobre')
       this.ScrollCidades()
       this.HideNav()
     },
-    SaoPaulo () {
-      this.$router.push('/detetive-particular-em-Sao-Paulo/#sobre')
+    CasteloBranco () {
+      this.$router.push('/detetive-particular-no-Castelo-Branco/#sobre')
       this.ScrollCidades()
       this.HideNav()
     },
-    RioDeJaneiro () {
-      this.$router.push('/detetive-particular-no-Rio-de-Janeiro/#sobre')
+    Coimbra () {
+      this.$router.push('/detetive-particular-no-Coimbra/#sobre')
       this.ScrollCidades()
       this.HideNav()
     },
-    DistritoFederal () {
-      this.$router.push('/detetive-particular-no-Distrito-Federal/#sobre')
+    Evora () {
+      this.$router.push('/detetive-particular-no-Evora/#sobre')
       this.ScrollCidades()
       this.HideNav()
     },
-    MinasGerais () {
-      this.$router.push('/detetive-particular-em-Minas-Gerais/#sobre')
+    Faro () {
+      this.$router.push('/detetive-particular-no-Faro/#sobre')
       this.ScrollCidades()
       this.HideNav()
     },
-    MatoGrosso () {
-      this.$router.push('/detetive-particular-no-Mato-Grosso-do-Sul/#sobre')
+    Guarda () {
+      this.$router.push('/detetive-particular-no-Guarda/#sobre')
       this.ScrollCidades()
       this.HideNav()
     },
-    Goias () {
-      this.$router.push('/detetive-particular-em-Goias/#sobre')
+    Leiria () {
+      this.$router.push('/detetive-particular-no-Leiria/#sobre')
+      this.ScrollCidades()
+      this.HideNav()
+    },
+    Lisboa () {
+      this.$router.push('/detetive-particular-no-Lisboa/#sobre')
+      this.ScrollCidades()
+      this.HideNav()
+    },
+    Portalegre () {
+      this.$router.push('/detetive-particular-no-Portalegre/#sobre')
+      this.ScrollCidades()
+      this.HideNav()
+    },
+    Porto () {
+      this.$router.push('/detetive-particular-no-Porto/#sobre')
+      this.ScrollCidades()
+      this.HideNav()
+    },
+    Santarem () {
+      this.$router.push('/detetive-particular-no-Santarem/#sobre')
+      this.ScrollCidades()
+      this.HideNav()
+    },
+    Setubal () {
+      this.$router.push('/detetive-particular-no-Setubal/#sobre')
+      this.ScrollCidades()
+      this.HideNav()
+    },
+    VianaDoCastelo () {
+      this.$router.push('/detetive-particular-no-Viana-Do-Castelo/#sobre')
+      this.ScrollCidades()
+      this.HideNav()
+    },
+    VilaReal () {
+      this.$router.push('/detetive-particular-no-Vila-Real/#sobre')
+      this.ScrollCidades()
+      this.HideNav()
+    },
+    Viseu () {
+      this.$router.push('/detetive-particular-no-Viseu/#sobre')
       this.ScrollCidades()
       this.HideNav()
     },

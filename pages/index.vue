@@ -51,7 +51,14 @@ import BtnForm from '../components/buttons/BtnForm.vue'
 import BtnWhatsapp from '../components/buttons/BtnWhatsapp.vue'
 export default {
   components: { BtnForm, BtnWhatsapp },
-  layout: 'LayoutSobre'
+  layout: 'LayoutSobre',
+  head: {
+    link: [
+      { rel: 'alternate', href: 'https://excellencedetetives.com.br/', hreflang: 'x-default' },
+      { rel: 'alternate', href: 'https://excellencedetetives.com.br/', hreflang: 'pt-br' },
+      { rel: 'alternate', href: 'https://excellencedetectives.pt/', hreflang: 'pt' }
+    ]
+  }
 }
 </script>
 <style scoped>

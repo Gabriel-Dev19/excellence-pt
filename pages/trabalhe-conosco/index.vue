@@ -181,7 +181,11 @@
 export default {
   layout: 'LayoutServicos',
   head: {
-    title: 'Trabalhe conosco - Oportunidades de trabalho bem remunerado para quem busca independência financeira'
+    link: [
+      { rel: 'alternate', href: 'https://excellencedetetives.com.br/trabalhe-conosco/', hreflang: 'x-default' },
+      { rel: 'alternate', href: 'https://excellencedetetives.com.br/trabalhe-conosco/', hreflang: 'pt-br' },
+      { rel: 'alternate', href: 'https://excellencedetectives.pt/trabalhe-conosco/', hreflang: 'pt' }
+    ]
   },
   mounted () {
     this.$smoothScroll({

@@ -183,7 +183,11 @@
 export default {
   layout: 'LayoutServicos',
   head: {
-    title: 'Legislação - Lei que permite a atuação do Detetive Particular'
+    link: [
+      { rel: 'alternate', href: 'https://excellencedetetives.com.br/legislacao-para-a-profissao-de-detetive-particular/', hreflang: 'x-default' },
+      { rel: 'alternate', href: 'https://excellencedetetives.com.br/legislacao-para-a-profissao-de-detetive-particular/', hreflang: 'pt-br' },
+      { rel: 'alternate', href: 'https://excellencedetectives.pt/legislacao-para-a-profissao-de-detetive-particular/', hreflang: 'pt' }
+    ]
   },
   methods: {
     CursoDetetive () {
