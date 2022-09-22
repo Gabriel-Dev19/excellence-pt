@@ -28,7 +28,7 @@
         </button>
         <button class="btn col-12 border-radius-0 py-20 bg-vermelho-pouco-escuro position-relative d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CursoDetetive">
           <ion-icon class="fs-26 text-white mr-2" style="margin-top: -2px;" name="school-outline" />
-          Curso de detetive
+          Curso de detective
           <div class="bolinha-shadow-top" />
           <div class="bolinha-shadow-bottom" />
         </button>
@@ -41,11 +41,11 @@
         <div class="col-md-5 col-lg-4 shadow ml-md-3 mb-xs-50 mb-sm-50 mb-md-15 px-0 border-radius-10 overflow-hidden float-md-right">
           <ContactServicos
             :slot-img="require('../../../assets/img/img-curso.webp')"
-            :slot-alt="'Curso de detetive particular para todo o Brasil'"
+            :slot-alt="'Curso de detective privado para todo o Brasil'"
           />
         </div>
         <h3 class="text-white text-xs-center mb-3 pt-20 fw-600 text-uppercase text-sm-center text-md-left">
-          Curso de detetive particular
+          Curso de detective privado
         </h3>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
           Venha se especializar com quem é especialista no ramo de Investigação Particular.
@@ -56,9 +56,9 @@
           Apostila didática completa
         </h4>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          Nossa apostila foi baseada em conhecimento adquirido em mais de 25 anos de atuação no ramo da investigação particular.
+          Nossa apostila foi baseada em conhecimento adquirido em mais de 25 anos de atuação no ramo da investigação privada.
           Preparamos para você um material simples e objetivo, para você tirar todas as suas dúvidas
-          e saber como se tornar um detetive particular de sucesso.
+          e saber como se tornar um detective privado de sucesso.
         </p>
         <h4 class="text-white text-xs-center mb-3 pt-20 fw-600 text-uppercase text-sm-center text-md-left">
           Certificado de conclusão
@@ -68,7 +68,7 @@
           Particular Profissional impresso e autenticado por nossa empresa.
         </p>
         <h4 class="text-white text-xs-center mb-3 pt-20 fw-600 text-uppercase text-sm-center text-md-left">
-          Porta documentos e carteira de detetive particular
+          Porta documentos e carteira de detective privado
         </h4>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
           Além do certificado, ao concluir o curso receberá também a Carteira
@@ -108,7 +108,7 @@
             </h5>
             <p class="text-white mb-0 fs-sm-15">
               Enviaremos esta versão para seu e-mail assim que o pagamento for concluído.
-              Desta forma você terá em suas mãos o melhor conteúdo de investigação particular
+              Desta forma você terá em suas mãos o melhor conteúdo de investigação privada
               para estudar de acordo com sua disponibilidade.
             </p>
             <div class="d-flex mt-20">
@@ -166,7 +166,7 @@
                 O melhor material
               </h6>
               <p class="mb-0 text-white text-center fs-13">
-                Nosso material foi elaborado por detetives experientes com mais de 25 anos de experiência
+                Nosso material foi elaborado por detectives experientes com mais de 25 anos de experiência
                 na área de investigação
               </p>
             </div>
@@ -177,19 +177,19 @@
         </h4>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
           A Excellence Agência de Detetives Particulares é uma empresa que atua no mercado da investigação
-          particular nos últimos 25 anos. Contamos com equipe altamente capacitada para trabalhar nas mais variadas
-          áreas da investigação particular, utilizando métodos modernos para facilitar o andamento de cada caso.
+          privada nos últimos 25 anos. Contamos com equipe altamente capacitada para trabalhar nas mais variadas
+          áreas da investigação privada, utilizando métodos modernos para facilitar o andamento de cada caso.
           Como características levamos a discrição, eficiência, competência e atendimento individualizado para cada cliente.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          Os detetives profissionais trabalham com que há de mais moderno na tecnologia de investigação particular
+          Os detectives profissionais trabalham com que há de mais moderno na tecnologia de investigação privada
           e faremos o possível para que cada caso seja elucidado de forma satisfatória para nossos clientes.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
           Após anos nos dedicando na elucidação dos casos mais variados, decidimos colocar tudo que aprendemos neste material
           didático e compartilhar com você todo o nosso conhecimento, e assim surgiu nosso Curso de Detetive Particular.
           Em nossa apostila você irá encontrar tudo o que precisa saber para ser um grande profissional a área de investigação
-          particular, e tudo isso com preço acessível e pagamento facilitado com o seu orçamento.
+          privado, e tudo isso com preço acessível e pagamento facilitado com o seu orçamento.
         </p>
         <h4 class="text-white text-xs-center mb-3 pt-20 fw-600 text-uppercase text-sm-center text-md-left">
           Perguntas Frequentes
@@ -224,7 +224,7 @@
         </div>
         <div class="bg-cinza mt-3 border-radius-20">
           <button v-b-toggle.collapse-3 class="btn text-left fw-500 d-flex align-items-center justify-content-between px-20 col-12">
-            O que recebo quando finalizar o curso de detetive?
+            O que recebo quando finalizar o curso de detective?
             <i class="fa fa-sort-down fs-25" style="margin-top: -8px" />
           </button>
           <b-collapse id="collapse-3" class="px-20">
@@ -247,17 +247,17 @@
         </div>
         <div class="bg-cinza mt-3 border-radius-20">
           <button v-b-toggle.collapse-5 class="btn text-left fw-500 d-flex align-items-center justify-content-between px-20 col-12">
-            Quanto ganha um detetive particular?
+            Quanto ganha um detective privado?
             <i class="fa fa-sort-down fs-25" style="margin-top: -8px" />
           </button>
           <b-collapse id="collapse-5" class="px-20">
             <p class="mb-0 pt-2 pb-3">
-              Dependendo do seu fluxo de trabalho o detetive pode alcançar remunerações de R$ 15.000 á R$ 20.000
+              Dependendo do seu fluxo de trabalho o detective pode alcançar remunerações de R$ 15.000 á R$ 20.000
             </p>
           </b-collapse>
         </div>
-        <h4 id="inscricao-curso-detetive" class="text-white text-xs-center mb-3 pt-20 mt-20 fw-600 text-uppercase text-sm-center text-md-left">
-          Faça sua inscrição em nosso curso de detetive
+        <h4 id="inscricao-curso-" class="text-white text-xs-center mb-3 pt-20 mt-20 fw-600 text-uppercase text-sm-center text-md-left">
+          Faça sua inscrição em nosso curso de detective
         </h4>
         <div class="bg-light shadow py-20 border-radius-20 px-3">
           <div v-show="ShowMsgSuccessFloat" class="col-12 mensagem-flutuante">
@@ -380,19 +380,19 @@ export default {
     }
   },
   head: {
-    title: 'Excellence - Curso de detetive particular - A Excellence detetives oferece um curso completo de detetive particular com certificado e credencial de detetive particular'
+    title: 'Excellence - Curso de detective privado - A Excellence detectives oferece um curso completo de detective privado com certificado e credencial de detective privado'
   },
   mounted () {
-    if (window.location.href === 'https://excellencedetetives.com.br/servicos/curso-de-detetive-particular/#servicos') {
+    if (window.location.href === 'https://excellencedetectives.pt/servicos/curso-de-detective-privado/#servicos') {
       this.$smoothScroll({
         scrollTo: document.getElementById('servicos'),
         duration: 500,
         offset: -170
       })
     }
-    if (window.location.href === 'https://excellencedetetives.com.br/servicos/curso-de-detetive-particular/#inscricao-curso-detetive') {
+    if (window.location.href === 'https://excellencedetectives.pt/servicos/curso-de-detective-privado/#inscricao-curso-') {
       this.$smoothScroll({
-        scrollTo: document.getElementById('inscricao-curso-detetive'),
+        scrollTo: document.getElementById('inscricao-curso-'),
         duration: 500,
         offset: -170
       })
@@ -403,7 +403,7 @@ export default {
       this.$v.$touch()
       if (this.$v.$invalid === false) {
         axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
-        axios.post('https://excellencedetetives.com.br/envio_curso.php', JSON.stringify({
+        axios.post('https://excellencedetectives.pt/envio_curso.php', JSON.stringify({
           nome_curso: this.nome_curso,
           email_curso: this.email_curso,
           telefone_curso: this.telefone_curso,
@@ -480,7 +480,7 @@ export default {
       this.$router.push('/servicos/celular-VIP/#servicos')
     },
     CursoDetetive () {
-      this.$router.push('/servicos/curso-de-detetive-particular/#servicos')
+      this.$router.push('/servicos/curso-de-detective-privado/#servicos')
     }
   }
 }

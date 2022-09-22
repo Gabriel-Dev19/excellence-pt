@@ -29,7 +29,7 @@
         </button>
         <button class="btn col-12 border-radius-0 navigate py-20 border-bottom d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CursoDetetive">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -2px;" name="school-outline" />
-          Curso de detetive
+          Curso de detective
         </button>
         <button class="btn col-12 border-radius-0 navigate py-20 d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="TodosOsServicos">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -2px;" name="grid-outline" />
@@ -67,7 +67,7 @@
           que irá reunir provas para a confirmação ou não das suas suspeitas.
         </p>
         <h4 id="sinais-de-desvios-empresariais" class="text-white text-xs-center mb-3 pt-20 fw-600 text-uppercase text-sm-center text-md-left">
-          Quando contratar um detetive particular para casos empresariais?
+          Quando contratar um detective privado para casos empresariais?
         </h4>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
           O Instituto dos Auditores Internos do Brasil – AUDIBRA, define a fraude empresarial como uma forma
@@ -97,7 +97,7 @@
         <p class="text-white text-xs-justify mt-4 text-sm-justify text-md-left">
           Alguns sinais também podem ser percebidos como uma repentina elevação no padrão de vida
           de algum colaborador que passa a demonstrar gastos incompatíveis com seus rendimentos oficiais.
-          Também pode ser notado o hábito de algum colaborador que prefere utilizar seu telefone particular
+          Também pode ser notado o hábito de algum colaborador que prefere utilizar seu telefone privado
           para contatar fornecedores e prestadores de serviço.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
@@ -128,14 +128,14 @@ export default {
     title: 'Excellence - Investigação empresarial - Investigamos casos de fraude empresarial e funcionários infiéis'
   },
   mounted () {
-    if (window.location.href === 'https://excellencedetetives.com.br/servicos/investigacao-empresarial/#servicos') {
+    if (window.location.href === 'https://excellencedetectives.pt/servicos/investigacao-empresarial/#servicos') {
       this.$smoothScroll({
         scrollTo: document.getElementById('servicos'),
         duration: 500,
         offset: -170
       })
     }
-    if (window.location.href === 'https://excellencedetetives.com.br/servicos/investigacao-empresarial/#sinais-de-desvios-empresariais') {
+    if (window.location.href === 'https://excellencedetectives.pt/servicos/investigacao-empresarial/#sinais-de-desvios-empresariais') {
       this.$smoothScroll({
         scrollTo: document.getElementById('sinais-de-desvios-empresariais'),
         duration: 500,
@@ -180,7 +180,7 @@ export default {
       this.$router.push('/servicos/celular-VIP/#servicos')
     },
     CursoDetetive () {
-      this.$router.push('/servicos/curso-de-detetive-particular/#servicos')
+      this.$router.push('/servicos/curso-de-detective-privado/#servicos')
     }
   }
 }

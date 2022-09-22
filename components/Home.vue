@@ -23,7 +23,7 @@
       </b-carousel>
       <div class="container z-index-5 mt-xs-110 mt-sm-100 mt-md-90 pt-lg-60 mt-lg-150 pt-xl-60 pt-xs-0 mt-xl-150 position-absolute">
         <h1 class="text-white text-uppercase fs-xs-28 col-xl-10 mx-auto text-center fw-700">
-          Com a exce<span class="text-vermelho">ll</span>ence detetives você tem <span class="text-vermelho">profissionalismo</span>
+          Com a exce<span class="text-vermelho">ll</span>ence detectives você tem <span class="text-vermelho">profissionalismo</span>
         </h1>
         <p class="text-center col-lg-9 px-0 mt-3 mx-auto text-white">
           A Excellence Agência Detetives nasceu em 1995 com a intenção de levar

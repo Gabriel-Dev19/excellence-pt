@@ -3,7 +3,7 @@
     <header>
       <nav class="navbar nav d-lg-none fixed-top" :class="{'pt-30': !NavScroll, 'bg-grafite py-15 shadow': NavScroll}">
         <div class="container">
-          <a href="https://excellencedetetives.com.br/">
+          <a href="https://excellencedetectives.pt/">
             <img src="../assets/img/logo-excellence.webp" :class="{'w-130': !NavScroll, 'w-120': NavScroll}" alt="Logo">
           </a>
           <transition enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeOut">
@@ -64,7 +64,7 @@
                         <ion-icon class="text-vermelho fs-16 mr-2" name="send-outline" /> Provas para advogados
                       </button>
                       <button class="btn d-flex mt-1 mb-3 align-items-center fw-500 px-0 py-0" @click.prevent="CursoDetetive">
-                        <ion-icon class="text-vermelho fs-16 mr-2" name="send-outline" /> Curso de detetive
+                        <ion-icon class="text-vermelho fs-16 mr-2" name="send-outline" /> Curso de detective
                       </button>
                       <span class="fs-19 text-vermelho fw-500">Tópicos</span>
                       <button class="btn d-flex mt-2 align-items-center text-left line-height-topicos fw-500 pl-0 py-0" @click.prevent="SinaisFraudeEmpresarial">
@@ -74,10 +74,10 @@
                         <ion-icon class="text-vermelho fs-16 mr-2" name="send-outline" /> <span class="col-10 px-0">Você está sendo "traido"?</span>
                       </button>
                       <button class="btn d-flex mt-2 align-items-center text-left line-height-topicos fw-500 pl-0 py-0" @click.prevent="InscricaoCursoDetetive">
-                        <ion-icon class="text-vermelho fs-16 mr-2" name="send-outline" /> <span class="col-10 px-0">Se inscreva no nosso curso de detetive</span>
+                        <ion-icon class="text-vermelho fs-16 mr-2" name="send-outline" /> <span class="col-10 px-0">Se inscreva no nosso curso de detective</span>
                       </button>
                       <button class="btn d-flex mt-2 align-items-center text-left line-height-topicos fw-500 pl-0 py-0" @click.prevent="Legislacao">
-                        <ion-icon class="text-vermelho fs-16 mr-2" name="send-outline" /> <span class="col-10 px-0">Lei para o detetive particular</span>
+                        <ion-icon class="text-vermelho fs-16 mr-2" name="send-outline" /> <span class="col-10 px-0">Lei para o detective privado</span>
                       </button>
                       <button class="btn d-flex mt-2 align-items-center text-left line-height-topicos fw-500 pl-0 py-0" @click.prevent="TrabalheConosco">
                         <ion-icon class="text-vermelho fs-16 mr-2" name="send-outline" /> <span class="col-10 px-0">Trabalhe conosco</span>
@@ -217,7 +217,7 @@
       </nav>
       <nav v-scroll="ScrollNav" class="navbar nav d-xs-none d-sm-none d-lg-flex fixed-top" :class="{'pt-40': !NavScroll, 'bg-grafite pt-10 pb-1 shadow': NavScroll}">
         <div class="container px-0">
-          <a href="https://excellencedetetives.com.br/">
+          <a href="https://excellencedetectives.pt/">
             <img src="../assets/img/logo-excellence.webp" :class="{'w-160': !NavScroll, 'w-120': NavScroll}" alt="Logo">
           </a>
           <div id="navbar-telefones" class="ml-auto pr-3 d-flex" :class="{'mt-2': !NavScroll, 'mt-0': NavScroll}">
@@ -301,7 +301,7 @@
                         </button>
                         <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="CursoDetetive">
                           <ion-icon class="fs-23 mr-2" name="school-outline" />
-                          Curso de detetive particular
+                          Curso de detective privado
                           <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
                         </button>
                         <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="TodosOsServicos">
@@ -328,14 +328,14 @@
                         </button>
                         <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="InscricaoCursoDetetive">
                           <ion-icon class="fs-22 mr-2" name="school-outline" />
-                          Se inscreva no curso de detetive
+                          Se inscreva no curso de detective
                           <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
                         </button>
                       </div>
                       <div class="col ml-2 px-0">
                         <button class="btn btn-dark d-flex align-items-center col-12" @click.prevent="Legislacao">
                           <ion-icon class="fs-22 mr-2" name="newspaper-outline" />
-                          Lei para o detetive particular
+                          Lei para o detective privado
                           <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
                         </button>
                         <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="TrabalheConosco">
@@ -681,7 +681,7 @@ export default {
       this.HideNav()
     },
     CursoDetetive () {
-      this.$router.push('/servicos/curso-de-detetive-particular/#servicos')
+      this.$router.push('/servicos/curso-de-detective-privado/#servicos')
       this.HideNav()
     },
 
@@ -695,7 +695,7 @@ export default {
       this.HideNav()
     },
     Legislacao () {
-      this.$router.push('/legislacao-para-a-profissao-de-detetive-particular/#servicos')
+      this.$router.push('/legislacao-para-a-profissao-de-detective-privado/#servicos')
       this.HideNav()
     },
     TrabalheConosco () {
@@ -707,7 +707,7 @@ export default {
       this.HideNav()
     },
     InscricaoCursoDetetive () {
-      this.$router.push('/servicos/curso-de-detetive-particular/#inscricao-curso-detetive')
+      this.$router.push('/servicos/curso-de-detective-privado/#inscricao-curso-detective')
       this.HideNav()
     }
   }

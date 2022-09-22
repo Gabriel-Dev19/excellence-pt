@@ -5,7 +5,7 @@
         Trabalhe conosco!
       </h3>
       <p class="text-justify mt-3 fw-500">
-        Você que já trabalha como detetive particular em qualquer cidade dos 9 estados de atuação da
+        Você que já trabalha como detective privado em qualquer cidade dos 9 estados de atuação da
         Excellence Agência de Detetives e deseja se tornar um prestador de serviços para nossa agência
         faça contato pelo e-mail:
         <a
@@ -19,7 +19,7 @@
       </p>
       <p class="text-justify mt-3 fw-500">
         Oferecemos uma oportunidade de você se tornar um profissional de destaque na sua região.
-        Se acaso você tem interesse em ingressar na carreira de detetive particular, não perca mais tempo!
+        Se acaso você tem interesse em ingressar na carreira de detective privado, não perca mais tempo!
         Venha fazer o curso de profissionalização conosco e além de todo conhecimento que iremos lhe
         passar, ainda daremos a você a oportunidade de fazer parte da nossa equipe.
         Para saber mais clique no botão abaixo:
@@ -33,7 +33,7 @@
         Requisitos
       </h4>
       <p class="text-justify mt-3 fw-500">
-        Os requisitos para se candidatar a uma vaga na nossa agência de detetives particulares são bem simples.
+        Os requisitos para se candidatar a uma vaga na nossa agência de detectives particulares são bem simples.
         Oferecemos oportunidades para novatos do nosso
         <button class="text-vermelho btn py-0 fw-600 px-0 btn-link text-underline" @click.prevent="CursoDetetive">
           Curso de Detetive Particular
@@ -62,7 +62,7 @@
       <p class="text-justify mt-3 fw-500">
         Oferecemos vantagens para todos os casos de profissionais que desejam se juntar a nossa agência, desde pessoas que
         estão iniciando a pouco tempo no ramo de investigação até pessoas que já trabalham a muito tempo. Se você ainda
-        não possui uma formação de detetive particular, confira nosso
+        não possui uma formação de detective privado, confira nosso
         <button class="text-vermelho btn py-0 fw-600 px-0 btn-link text-underline" @click.prevent="CursoDetetive">
           Curso de Detetive Particular
         </button> e aproveite as ofertas especiais.
@@ -126,7 +126,7 @@
             Equipe especializada
           </h6>
           <p class="text-center fs-14 mb-0 fw-500">
-            Equipe qualificada, com experiência em diversas funções e segmentos da investigação particular.
+            Equipe qualificada, com experiência em diversas funções e segmentos da investigação privada.
           </p>
         </div>
         <div class="col-lg shadow mt-xs-3 mt-sm-3 mt-lg-0 border-dark border-radius-10 py-20">
@@ -145,7 +145,7 @@
         Onde atuar?
       </h4>
       <p class="text-center text-uppercase col-lg-8 mx-auto fs-13 fw-500">
-        Torne-se um detetive particular e tenha ótimos ganhos. Conquiste sua liberdade financeira!
+        Torne-se um detective privado e tenha ótimos ganhos. Conquiste sua liberdade financeira!
       </p>
       <p class="mt-4 text-justify fw-500">
         <b>1) </b>Casos de infidelidade conjugal: acompanhamentos, levantamento por meio de registros telefônicos,
@@ -196,7 +196,7 @@ export default {
   },
   methods: {
     CursoDetetive () {
-      this.$router.push('/servicos/curso-de-detetive-particular/#servicos')
+      this.$router.push('/servicos/curso-de-detective-privado/#servicos')
     }
   }
 }

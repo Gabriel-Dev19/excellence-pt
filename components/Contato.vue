@@ -78,8 +78,8 @@
                     <option value="Celular VIP">
                       Celular VIP
                     </option>
-                    <option value="Curso de detetive particular">
-                      Curso de detetive particular
+                    <option value="Curso de detective privado">
+                      Curso de detective privado
                     </option>
                   </select>
                   <div v-show="ShowMsgError" v-if="$v.tipo_servico.$error" class="error text-left px-2">
@@ -258,7 +258,7 @@ export default {
       this.$v.$touch()
       if (this.$v.$invalid === false) {
         axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
-        axios.post('https://excellencedetetives.com.br/envio.php', JSON.stringify({
+        axios.post('https://excellencedetectives.pt/envio.php', JSON.stringify({
           nome: this.nome,
           email: this.email,
           telefone: this.telefone,

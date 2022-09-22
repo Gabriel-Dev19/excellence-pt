@@ -2,7 +2,7 @@
   <div>
     <div class="container bg-cinza py-30 px-lg-80 border-radius-10">
       <h3 class="text-uppercase fs-xs-23 fw-600 text-center">
-        Legislação para a profissão de detetive particular
+        Legislação para a profissão de detective privado
       </h3>
       <p class="text-justify mt-3 fw-500">
         A Profissão de <b>Detetive Particular</b> tem suporte na legislação brasileira,
@@ -36,7 +36,7 @@
       </p>
       <p class="fw-500 text-justify">
         <ion-icon class="fs-20" style="margin-bottom: -4px;" name="checkmark-circle-outline" />
-        Títulos: Agente de investigação privada, Detetive particular, Investigador particular
+        Títulos: Agente de investigação privada, Detetive privado, Investigador privado
       </p>
       <p class="fw-500 text-justify">
         <ion-icon class="fs-20" style="margin-bottom: -4px;" name="checkmark-circle-outline" />
@@ -122,7 +122,7 @@
         Leis e decretos
       </h4>
       <p class="mt-3 text-justify fw-500">
-        A profissão de investigação particular é governada pela Lei Federal nº 3.099/1957
+        A profissão de investigação privada é governada pela Lei Federal nº 3.099/1957
         e pelo Decreto Federal nº 50.532/1961. Confira a seguir nos links:
       </p>
       <a
@@ -186,12 +186,12 @@ export default {
     link: [
       { rel: 'alternate', href: 'https://excellencedetetives.com.br/legislacao-para-a-profissao-de-detetive-particular/', hreflang: 'x-default' },
       { rel: 'alternate', href: 'https://excellencedetetives.com.br/legislacao-para-a-profissao-de-detetive-particular/', hreflang: 'pt-br' },
-      { rel: 'alternate', href: 'https://excellencedetectives.pt/legislacao-para-a-profissao-de-detetive-particular/', hreflang: 'pt' }
+      { rel: 'alternate', href: 'https://excellencedetectives.pt/legislacao-para-a-profissao-de-detective-privado/', hreflang: 'pt' }
     ]
   },
   methods: {
     CursoDetetive () {
-      this.$router.push('/servicos/curso-de-detetive-particular/#servicos')
+      this.$router.push('/servicos/curso-de-detective-privado/#servicos')
       this.$smoothScroll({
         scrollTo: document.getElementById('servicos'),
         duration: 500,

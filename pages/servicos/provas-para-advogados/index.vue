@@ -30,7 +30,7 @@
         </button>
         <button class="btn col-12 border-radius-0 navigate py-20 border-bottom d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CursoDetetive">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -2px;" name="school-outline" />
-          Curso de detetive
+          Curso de detective
         </button>
         <button class="btn col-12 border-radius-0 navigate py-20 d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="TodosOsServicos">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -2px;" name="grid-outline" />
@@ -41,7 +41,7 @@
         <div class="col-md-5 col-lg-4 shadow ml-md-3 mb-xs-50 mb-sm-50 mb-md-15 px-0 border-radius-10 overflow-hidden float-md-right">
           <ContactServicos
             :slot-img="require('../../../assets/img/img-provas-para-advogados.webp')"
-            :slot-alt="'provas para advogados detetive para coletar provas para advogados advogados criminais'"
+            :slot-alt="'provas para advogados detective para coletar provas para advogados advogados criminais'"
           />
         </div>
         <h3 class="text-white text-xs-center mb-3 pt-20 fw-600 text-uppercase text-sm-center text-md-left">
@@ -57,7 +57,7 @@
           As provas obtidas durante a investigação são válidas para processos e podem influenciar em inquéritos policiais.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          Vale lembrar de imediato que a atuação do detetive particular na produção de provas judiciais é lícita.
+          Vale lembrar de imediato que a atuação do detective privado na produção de provas judiciais é lícita.
           Porém, o profissional precisa respeitar a legislação. Destacamos a Lei 13.432/2017 que traz a regulamentação
           sobre o exercício da profissão.
         </p>
@@ -65,15 +65,15 @@
           Observemos o artigo 2º da Lei 13.432/2017:
         </h4>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          “Para os fins desta Lei, considera-se detetive particular o profissional que, habitualmente, por conta
+          “Para os fins desta Lei, considera-se detective privado o profissional que, habitualmente, por conta
           própria ou na forma de sociedade civil ou empresarial, planeje e execute coleta de dados e informações
           de natureza não criminal, com conhecimento técnico e utilizando recursos e meios tecnológicos permitidos,
           visando ao esclarecimento de assuntos de interesse privado do contratante. ”
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          O trecho, por si só, não deixa dúvidas de que o nosso trabalho enquanto detetive particular é lícito. Mas
+          O trecho, por si só, não deixa dúvidas de que o nosso trabalho enquanto detective privado é lícito. Mas
           aqui se faz necessário esclarecer que a uma linha muito tênue entre o licito e o ilícito. Geralmente,
-          o trabalho do detetive particular na produção de provas judiciais ocorre em um contexto complexo que pode ser
+          o trabalho do detective privado na produção de provas judiciais ocorre em um contexto complexo que pode ser
           considerado evasivo ou até intimidador. Neste caso, as provas podem ser consideradas ilícitas.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
@@ -172,7 +172,7 @@ export default {
     title: 'Excellence - Provas para advogados - Auxiliamos advogados na missão de reunir provas'
   },
   mounted () {
-    if (window.location.href === 'https://excellencedetetives.com.br/servicos/provas-para-advogados/#servicos') {
+    if (window.location.href === 'https://excellencedetectives.pt/servicos/provas-para-advogados/#servicos') {
       this.$smoothScroll({
         scrollTo: document.getElementById('servicos'),
         duration: 500,
@@ -217,7 +217,7 @@ export default {
       this.$router.push('/servicos/celular-VIP/#servicos')
     },
     CursoDetetive () {
-      this.$router.push('/servicos/curso-de-detetive-particular/#servicos')
+      this.$router.push('/servicos/curso-de-detective-privado/#servicos')
     }
   }
 }

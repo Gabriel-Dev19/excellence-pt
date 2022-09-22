@@ -7,14 +7,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Excellence - Agência de detetives particulares',
+    title: 'Excellence - Agência de detectives particulares',
     htmlAttrs: {
       lang: 'pt-BR'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'A Excellence Agência de investigação é uma empresa focada em fornecer o melhor serviço de investigação do Brasil! Fornecemos serviços de detetive particular | Investigação empresarial | Investigação conjugal | Localização de pessoas desaparecidas' },
+      { hid: 'description', name: 'description', content: 'A Excellence Agência de investigação é uma empresa focada em fornecer o melhor serviço de investigação do Brasil! Fornecemos serviços de detective privado | Investigação empresarial | Investigação conjugal | Localização de pessoas desaparecidas' },
       { name: 'theme-color', content: '#eb4d4b' },
       { name: 'apple-mobile-web-app-status-bar-style', content: '#eb4d4b' },
       { name: 'msapplication-navbutton-color', content: '#eb4d4b' }
@@ -61,7 +61,7 @@ export default {
   ],
 
   sitemap: {
-    hostname: 'https://excellencedetetives.com.br/'
+    hostname: 'https://excellencedetectives.pt/'
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

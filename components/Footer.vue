@@ -50,7 +50,7 @@
           <ion-icon class="fs-13 mr-1" name="phone-portrait-outline" /> Celular VIP
         </button>
         <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="CursoDetetive">
-          <ion-icon class="fs-13 mr-1" name="school-outline" /> Curso de detetive
+          <ion-icon class="fs-13 mr-1" name="school-outline" /> Curso de detective
         </button>
         <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="Politica">
           <ion-icon class="fs-13 mr-1" name="lock-closed-outline" /> Política de privacidade
@@ -177,7 +177,7 @@ export default {
       this.$router.push('/servicos/celular-VIP/#servicos')
     },
     CursoDetetive () {
-      this.$router.push('/servicos/curso-de-detetive-particular/#servicos')
+      this.$router.push('/servicos/curso-de-detective-privado/#servicos')
     },
     Politica () {
       this.$router.push('/politica-de-privacidade/#servicos')

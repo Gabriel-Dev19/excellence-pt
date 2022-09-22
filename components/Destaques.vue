@@ -8,8 +8,8 @@
         </h3>
         <p class="fw-500 text-xs-justify text-sm-justify text-lg-left fs-sm-14 mt-3">
           A Excellence Agência de Detetives vem ao longo dos anos se especializando em todos os tipos de casos, incluindo
-          <b>casos conjugais, casos empresariais, casos de funcionários desleais, cursos de detetive
-            particular com certificado e diversos outros serviços.
+          <b>casos conjugais, casos empresariais, casos de funcionários desleais, cursos de detective
+            privado com certificado e diversos outros serviços.
           </b>
         </p>
         <div class="d-flex justify-content-xs-center justify-content-sm-center justify-content-lg-start">

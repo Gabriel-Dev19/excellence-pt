@@ -15,7 +15,7 @@
         <div class="bolinha-select cursor-pointer d-flex justify-content-center align-items-center position-relative" :class="{'active': Bolinha2}" @click.prevent="ToSlide2">
           <div class="circulo-bolinha" />
           <h6 class="text-bolinha text-uppercase fs-13 fw-600 text-dark text-center">
-            detetives dedicados
+            detectives dedicados
           </h6>
         </div>
         <div class="bolinha-select cursor-pointer d-flex justify-content-center align-items-center position-relative" :class="{'active': Bolinha3}" @click.prevent="ToSlide3">
@@ -45,7 +45,7 @@
                 Garantia e confiança
               </h3>
               <p class="fw-500 text-justify mb-0">
-                Somos uma das maiores agências de detetives particulares do Brasil,
+                Somos uma das maiores agências de detectives particulares do Brasil,
                 com mais de 25 anos de atuação no mercado Nacional, contamos com equipe
                 altamente qualificada para prestar o melhor serviço de investigação que você
                 está precisando, seja ele pessoal ou corporativo. Entre em contato conosco hoje mesmo!
@@ -88,7 +88,7 @@
                 Provas e fatos
               </h3>
               <p class="fw-500 text-justify mb-0">
-                Ao contratar um detetive particular, é importante que o material de investigação fornecido
+                Ao contratar um detective privado, é importante que o material de investigação fornecido
                 seja coletado na forma correta, seguindo os critérios legais para que tenha validade. A Excellence Agência Detetives
                 fornecerá a você todo o material necessário, com fotos, vídeos e gravações para seu processo judicial.
               </p>

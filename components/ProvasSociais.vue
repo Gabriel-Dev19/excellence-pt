@@ -20,7 +20,7 @@
             <b-carousel-slide>
               <div>
                 <p class="text-white">
-                  <i class="fa fa-quote-left mr-1 fw-400" /> Procurei um detetive para que pudesse monitorar minha esposa.
+                  <i class="fa fa-quote-left mr-1 fw-400" /> Procurei um detective para que pudesse monitorar minha esposa.
                   A Excellence Detetives fez um ótimo trabalho e todas as minhas dúvidas foram sanadas. <i class="fa fa-quote-right ml-1 fw-400" />
                 </p>
                 <p class="text-italic text-white">

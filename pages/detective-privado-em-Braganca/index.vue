@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h2 class="text-vermelho mb-1 fs-xs-25 text-uppercase fw-700 text-center">
-      Detetive particular em Bragança
+      Detetive privado em Bragança
     </h2>
     <div class="d-flex justify-content-center">
       <ion-icon class="fs-30 text-vermelho" name="chevron-down-outline" />
@@ -29,7 +29,7 @@
         e muitos outros casos. Entre em contato conosco que teremos a satisfação de ajudá-lo a sanar todas as suas dúvidas.
       </p>
       <h4 class="text-uppercase flex-fill text-center mt-40 fs-xs-20 fw-700 text-vermelho">
-        <ion-icon class="text-vermelho fs-20 mr-1" style="margin-bottom: -2px;" name="send-outline" /> Fale com um detetive na sua cidade
+        <ion-icon class="text-vermelho fs-20 mr-1" style="margin-bottom: -2px;" name="send-outline" /> Fale com um detective na sua cidade
       </h4>
       <section class="col-12 px-0">
         <div class="container px-xs-0">
@@ -67,7 +67,7 @@ export default {
   components: { BtnForm, BtnWhatsapp },
   layout: 'LayoutSobre',
   head: {
-    title: 'Excellence - Detetive particular em Bragança'
+    title: 'Excellence - Detetive privado em Bragança'
   },
   mounted () {
     this.$smoothScroll({

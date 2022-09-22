@@ -30,7 +30,7 @@
         </button>
         <button class="btn col-12 border-radius-0 navigate py-20 border-bottom d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CursoDetetive">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -2px;" name="school-outline" />
-          Curso de detetive
+          Curso de detective
         </button>
         <button class="btn col-12 border-radius-0 navigate py-20 d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="TodosOsServicos">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -2px;" name="grid-outline" />
@@ -56,17 +56,17 @@
           Relacionamentos baseados em dúvidas e incertezas podem afetar gravemente a sua qualidade
           de vida. Relacionamentos tóxicos muitas vezes são doentios, levando a parte afetada
           ao estresse e depressão. Em um relacionamento, se as dúvidas não poderem esclarecidas
-          entre o casal, contratar um detetive particular muitas vezes é a melhor opção para comprovar
+          entre o casal, contratar um detective privado muitas vezes é a melhor opção para comprovar
           um eventual caso de traição.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
           A Excellence Agência de Detetives trata cada caso como único e de acordo com a necessidade de cada cliente,
           entendemos que esta procura acontece em um momento de estresse e decepção. Sabendo
-          disso contamos com uma equipe de detetives experientes e preparados para trabalhar no
+          disso contamos com uma equipe de detectives experientes e preparados para trabalhar no
           seu caso com máximo sigilo e discrição.
         </p>
         <h4 id="sinais-de-infidelidade-conjugal" class="text-white text-xs-center mb-3 pt-20 fw-600 text-uppercase text-sm-center text-md-left">
-          Quando contratar um detetive particular para o seu caso conjugal?
+          Quando contratar um detective privado para o seu caso conjugal?
         </h4>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
           Sinais de uma possível infidelidade são notados através de mudanças de comportamentos,
@@ -76,7 +76,7 @@
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
           Abaixo alguns sinais que poder indicar que você esta sendo traído(a) e que podem
-          ajudar na sua decisão de contratar um detetive particular:
+          ajudar na sua decisão de contratar um detective privado:
         </p>
         <p class="text-white mb-2 mt-4">
           <ion-icon class="text-white fs-20" style="margin-bottom: -4px;" name="checkmark-circle-outline" />
@@ -136,14 +136,14 @@ export default {
     title: 'Excellence - Investigação conjugal - Investigamos casos de traição e infidelidade conjugal'
   },
   mounted () {
-    if (window.location.href === 'https://excellencedetetives.com.br/servicos/investigacao-conjugal/#servicos') {
+    if (window.location.href === 'https://excellencedetectives.pt/servicos/investigacao-conjugal/#servicos') {
       this.$smoothScroll({
         scrollTo: document.getElementById('servicos'),
         duration: 500,
         offset: -170
       })
     }
-    if (window.location.href === 'https://excellencedetetives.com.br/servicos/investigacao-conjugal/#sinais-de-infidelidade-conjugal') {
+    if (window.location.href === 'https://excellencedetectives.pt/servicos/investigacao-conjugal/#sinais-de-infidelidade-conjugal') {
       this.$smoothScroll({
         scrollTo: document.getElementById('sinais-de-infidelidade-conjugal'),
         duration: 500,
@@ -188,7 +188,7 @@ export default {
       this.$router.push('/servicos/celular-VIP/#servicos')
     },
     CursoDetetive () {
-      this.$router.push('/servicos/curso-de-detetive-particular/#servicos')
+      this.$router.push('/servicos/curso-de-detective-privado/#servicos')
     }
   }
 }

@@ -12,9 +12,8 @@
             <h5 class="text-white fw-600 mb-0">
               Olá!
             </h5>
-            <p class="text-white line-height-p mt-1 fs-15 mb-0">
-              Seja bem vindo a nossa central de atendimento, clique no whatsapp
-              correspondente a região que deseja ser atendido.
+            <p class="text-white line-height-p mt-1 fs-16 mb-0">
+              Seja bem vindo a nossa central de atendimento.
             </p>
           </div>
           <button class="btn pt-2" @click.prevent="$root.$emit('HideModalWhatsapp')">
@@ -25,81 +24,11 @@
       <div class="col-12 px-0 bg-white pb-25 overflow-hidden">
         <div class="d-flex justify-content-center">
           <div>
-            <a href="https://wa.me/5547988336355?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex mt-20 align-items-center no-underline" rel="noopener noreferrer">
+            <a href="https://wa.me/351913342032?text=Olá,+estou+visitando+o+site+da+EXCELLENCE+Detectives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex mt-20 align-items-center no-underline" rel="noopener noreferrer">
               <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
               <div class="col text-dark">
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">Norte de Santa Catarina</p>
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">(47) 98833-6355</p>
-              </div>
-            </a>
-            <a href="https://wa.me/5548999994986?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex mt-15 align-items-center no-underline" rel="noopener noreferrer">
-              <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-              <div class="col text-dark">
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">Sul de Santa Catarina</p>
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">(48) 99999-4986</p>
-              </div>
-            </a>
-            <a href="https://wa.me/5549991662520?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex mt-15 align-items-center no-underline" rel="noopener noreferrer">
-              <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-              <div class="col text-dark">
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">Serra Catarinense</p>
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">(49) 99166-2520</p>
-              </div>
-            </a>
-            <a href="https://wa.me/5541995190579?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex mt-15 align-items-center no-underline" rel="noopener noreferrer">
-              <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-              <div class="col text-dark">
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">Paraná</p>
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">(41) 99519-0579</p>
-              </div>
-            </a>
-            <a href="https://wa.me/5511973773244?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex mt-15 align-items-center no-underline" rel="noopener noreferrer">
-              <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-              <div class="col text-dark">
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">São Paulo</p>
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">(11) 97377-3244</p>
-              </div>
-            </a>
-            <a href="https://wa.me/5551997544960?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex mt-15 align-items-center no-underline" rel="noopener noreferrer">
-              <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-              <div class="col text-dark">
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">Rio Grande do Sul</p>
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">(51) 99754-4960</p>
-              </div>
-            </a>
-            <a href="https://wa.me/5521999932082?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex mt-15 align-items-center no-underline" rel="noopener noreferrer">
-              <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-              <div class="col text-dark">
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">Rio de Janeiro</p>
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">(21) 99993-2082</p>
-              </div>
-            </a>
-            <a href="https://wa.me/5531998082674?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex mt-15 align-items-center no-underline" rel="noopener noreferrer">
-              <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-              <div class="col text-dark">
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">Minas Gerais</p>
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">(31) 99808-2674</p>
-              </div>
-            </a>
-            <a href="https://wa.me/5562999599493?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex mt-15 align-items-center no-underline" rel="noopener noreferrer">
-              <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-              <div class="col text-dark">
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">Goiás</p>
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">(62) 99959-9493</p>
-              </div>
-            </a>
-            <a href="https://wa.me/5567996182861?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex mt-15 align-items-center no-underline" rel="noopener noreferrer">
-              <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-              <div class="col text-dark">
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">Mato Grosso do Sul</p>
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">(67) 99618-2861</p>
-              </div>
-            </a>
-            <a href="https://wa.me/5561998300643?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex mt-15 align-items-center no-underline" rel="noopener noreferrer">
-              <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-              <div class="col text-dark">
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">Distrito Federal</p>
-                <p class="fw-700 d-block fs-17 mb-0 col-12 px-0">(61) 99830-0643</p>
+                <p class="fw-700 d-block fs-18 mb-0 col-12 px-0">Entre em Contacto</p>
+                <p class="fw-700 d-block fs-18 mb-0 col-12 px-0">+351 913 342 032</p>
               </div>
             </a>
           </div>

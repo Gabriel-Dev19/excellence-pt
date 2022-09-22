@@ -138,7 +138,7 @@
           <ion-icon class="fs-60 text-vermelho-escuro mr-2" name="school-outline" />
         </div>
         <h5 class="text-white mt-15">
-          Curso de detetive particular
+          Curso de detective privado
         </h5>
         <p class="text-white mb-0 fs-sm-15">
           Venha se especializar com quem é especialista no ramo de Investigação Particular. Realizando nosso Curso
@@ -148,7 +148,7 @@
         <div class="d-flex mt-3">
           <button class="btn btn-press-vermelho d-flex align-items-center" @click.prevent="CursoDetetive">
             <ion-icon class="fs-22 mr-2" name="bar-chart-outline" />
-            <span style="margin-bottom: -2px;">Curso de detetive</span>
+            <span style="margin-bottom: -2px;">Curso de detective</span>
           </button>
         </div>
       </div>
@@ -188,7 +188,7 @@ export default {
     ]
   },
   mounted () {
-    if (window.location.href === 'https://excellencedetetives.com.br/servicos/#servicos') {
+    if (window.location.href === 'https://excellencedetectives.pt/servicos/#servicos') {
       this.$smoothScroll({
         scrollTo: document.getElementById('servicos'),
         duration: 500,
@@ -223,7 +223,7 @@ export default {
       this.$router.push('/servicos/celular-VIP/#servicos')
     },
     CursoDetetive () {
-      this.$router.push('/servicos/curso-de-detetive-particular/#servicos')
+      this.$router.push('/servicos/curso-de-detective-privado/#servicos')
     }
   }
 }

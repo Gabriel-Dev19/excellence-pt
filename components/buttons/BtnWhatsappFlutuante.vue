@@ -6,7 +6,7 @@
       </button>
       <transition enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeOut">
         <div v-show="ShowDropdownWhatsapp" id="dropdown-whatsapp" class="bg-white rounded cursor-normal shadow-lg" @click.stop="">
-          <div class="d-flex rounded overflow-hidden row h-100 mx-0">
+          <div class="d-flex rounded overflow-hidden row mx-0">
             <div class="py-10 bg-vermelho align-self-start col-12 px-0">
               <div class="px-3">
                 <h6 class="fw-600 text-white mb-0">
@@ -18,83 +18,13 @@
                 </p>
               </div>
             </div>
-            <div class="height-div-meio-whatsapp bg-light align-self-center d-flex justify-content-center col-12">
+            <div class="bg-light align-self-center d-flex justify-content-center col-12">
               <div>
-                <a href="https://wa.me/5547991062096?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex mt-20 border-bottom px-20 pb-10 align-items-center no-underline" rel="noopener noreferrer">
+                <a href="https://wa.me/351913342032?text=Olá,+estou+visitando+o+site+da+EXCELLENCE+Detectives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex mt-20 border-bottom px-20 pb-10 align-items-center no-underline" rel="noopener noreferrer">
                   <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
                   <div class="col text-dark">
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">Norte de Santa Catarina</p>
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">(47) 98833-6355</p>
-                  </div>
-                </a>
-                <a href="https://wa.me/5548999994986?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex border-bottom px-20 pb-10 mt-10 align-items-center no-underline" rel="noopener noreferrer">
-                  <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-                  <div class="col text-dark">
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">Sul de Santa Catarina</p>
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">(48) 99999-4986</p>
-                  </div>
-                </a>
-                <a href="https://wa.me/5549991662520?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex border-bottom px-20 pb-10 mt-10 align-items-center no-underline" rel="noopener noreferrer">
-                  <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-                  <div class="col text-dark">
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">Serra Catarinense</p>
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">(49) 99166-2520</p>
-                  </div>
-                </a>
-                <a href="https://wa.me/5541995190579?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex border-bottom px-20 pb-10 mt-10 align-items-center no-underline" rel="noopener noreferrer">
-                  <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-                  <div class="col text-dark">
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">Paraná</p>
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">(41) 99519-0579</p>
-                  </div>
-                </a>
-                <a href="https://wa.me/5511973773244?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex border-bottom px-20 pb-10 mt-10 align-items-center no-underline" rel="noopener noreferrer">
-                  <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-                  <div class="col text-dark">
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">São Paulo</p>
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">(11) 97377-3244</p>
-                  </div>
-                </a>
-                <a href="https://wa.me/5551997544960?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex border-bottom px-20 pb-10 mt-10 align-items-center no-underline" rel="noopener noreferrer">
-                  <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-                  <div class="col text-dark">
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">Rio Grande do Sul</p>
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">(51) 99754-4960</p>
-                  </div>
-                </a>
-                <a href="https://wa.me/5521999932082?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex border-bottom px-20 pb-10 mt-10 align-items-center no-underline" rel="noopener noreferrer">
-                  <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-                  <div class="col text-dark">
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">Rio de Janeiro</p>
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">(21) 99993-2082</p>
-                  </div>
-                </a>
-                <a href="https://wa.me/5531998082674?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex border-bottom px-20 pb-10 mt-10 align-items-center no-underline" rel="noopener noreferrer">
-                  <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-                  <div class="col text-dark">
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">Minas Gerais</p>
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">(31) 99808-2674</p>
-                  </div>
-                </a>
-                <a href="https://wa.me/5562999599493?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex border-bottom px-20 pb-10 mt-10 align-items-center no-underline" rel="noopener noreferrer">
-                  <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-                  <div class="col text-dark">
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">Goiás</p>
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">(62) 99959-9493</p>
-                  </div>
-                </a>
-                <a href="https://wa.me/5567996182861?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex border-bottom px-20 pb-10 mt-10 align-items-center no-underline" rel="noopener noreferrer">
-                  <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-                  <div class="col text-dark">
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">Mato Grosso do Sul</p>
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">(67) 99618-2861</p>
-                  </div>
-                </a>
-                <a href="https://wa.me/5561998300643?text=Olá,+estou+visitando+o+site+da+IUNDEP+Detetives+e+gostaria+de+receber+mais+informações" target="_blank" class="d-flex px-20 pb-20 mt-10 align-items-center no-underline" rel="noopener noreferrer">
-                  <i class="fab fa-whatsapp-square text-whatsapp fs-42" />
-                  <div class="col text-dark">
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">Distrito Federal</p>
-                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">(61) 99830-0643</p>
+                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">Entre em contacto</p>
+                    <p class="fw-600 d-block fs-15 text-left mb-0 col-12 px-0">+351 913 342 032</p>
                   </div>
                 </a>
               </div>
@@ -177,7 +107,7 @@ export default {
       position: absolute;
       bottom: 70px;
       right: -10px;
-      height: 450px;
+      height: auto;
       width: 340px;
     }
     .height-div-meio-whatsapp{
@@ -224,7 +154,7 @@ export default {
       position: absolute;
       bottom: 70px;
       right: -10px;
-      height: 450px;
+      height: auto;
       width: 380px;
     }
     .height-div-meio-whatsapp{

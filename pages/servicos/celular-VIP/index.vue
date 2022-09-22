@@ -30,7 +30,7 @@
         </button>
         <button class="btn col-12 border-radius-0 navigate py-20 border-bottom d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CursoDetetive">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -2px;" name="school-outline" />
-          Curso de detetive
+          Curso de detective
         </button>
         <button class="btn col-12 border-radius-0 navigate py-20 d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="TodosOsServicos">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -2px;" name="grid-outline" />
@@ -81,7 +81,7 @@ export default {
     title: 'Excellence - Celular VIP - Monitoramos tudo que seu filho menor de idade faz nas redes sociais e no celular'
   },
   mounted () {
-    if (window.location.href === 'https://excellencedetetives.com.br/servicos/celular-VIP/#servicos') {
+    if (window.location.href === 'https://excellencedetectives.pt/servicos/celular-VIP/#servicos') {
       this.$smoothScroll({
         scrollTo: document.getElementById('servicos'),
         duration: 500,
@@ -126,7 +126,7 @@ export default {
       this.$router.push('/servicos/celular-VIP/#servicos')
     },
     CursoDetetive () {
-      this.$router.push('/servicos/curso-de-detetive-particular/#servicos')
+      this.$router.push('/servicos/curso-de-detective-privado/#servicos')
     }
   }
 }
