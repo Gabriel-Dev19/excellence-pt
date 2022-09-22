@@ -25,7 +25,7 @@
         </button>
         <button class="btn col-12 border-radius-0 navigate border-bottom py-20 d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CelularEspiao">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -3px;" name="phone-portrait-outline" />
-          Celular VIP
+          Telemóvel VIP
         </button>
         <button class="btn col-12 border-radius-0 navigate py-20 border-bottom d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CursoDetetive">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -2px;" name="school-outline" />
@@ -58,12 +58,12 @@
           outras pessoas.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          No Brasil, pelo menos 70% das empresas já foram vítimas de alguns tipos de prejuízos empresarial causados
+          Em Portugal, pelo menos 70% das empresas já foram vítimas de alguns tipos de prejuízos empresarial causados
           por funcionários vinculados à própria empresa, ou seja, colaboradores internos, parceiros e até mesmo
           prestadores de serviços.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          A Excellence Agência de Detetives conta com equipe qualificada em âmbito da investigação empresarial,
+          A Excellence Agência de Detectives conta com equipa qualificada em âmbito da investigação empresarial,
           que irá reunir provas para a confirmação ou não das suas suspeitas.
         </p>
         <h4 id="sinais-de-desvios-empresariais" class="text-white text-xs-center mb-3 pt-20 fw-600 text-uppercase text-sm-center text-md-left">
@@ -112,7 +112,7 @@
           para garantir o sucesso da sua empresa.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          Se você quer realmente confirmar suas suspeitas, não deixe de entrar em contato conosco para que
+          Se você quer realmente confirmar suas suspeitas, não deixe de entrar em contacto conosco para que
           possamos ajudar você e resolver esta situação.
         </p>
       </div>

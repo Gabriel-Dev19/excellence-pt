@@ -12,7 +12,7 @@
         <span class="text-vermelho">solucionando os mais variados casos</span> em todo o país.
       </h3>
       <p class="fw-500 text-justify">
-        Com mais de 25 anos de experiência e centenas de casos resolvidos, atuamos em todo o Brasil,
+        Com mais de 25 anos de experiência e centenas de casos resolvidos, atuamos em todo o Portugal,
         inclusive nas cidades do interior, executando nossos serviços de forma discreta e sigilosa, e trabalhando
         de forma rápida e eficaz, para proporcionar ao cliente resultado no menor tempo possível. Ajustamos nosso
         trabalho de acordo com a necessidade e exigência de cada cliente.
@@ -33,11 +33,11 @@
         Navegue pelo nosso site e conheça melhor nossos serviços e veja como a Excellence poderá lhe ajudar.
       </p>
       <h4 class="text-uppercase flex-fill text-center mt-40 fs-xs-20 fw-700 text-vermelho">
-        <ion-icon class="text-vermelho fs-20 mr-1" style="margin-bottom: -2px;" name="send-outline" /> Entre em contato com a Excellence!
+        <ion-icon class="text-vermelho fs-20 mr-1" style="margin-bottom: -2px;" name="send-outline" /> Entre em contacto com a Excellence!
       </h4>
       <p class="text-center fs-15 col-xl-8 px-0 mt-3 mx-auto fw-600">
-        Preencha nosso formulário de contato com seu nome, e-mail e outros dados para que possamos entrar em
-        contato com você, ou fale conosco diretamente pelo WhatsApp.
+        Preencha nosso formulário de contacto com seu nome, e-mail e outros dados para que possamos entrar em
+        contacto com você, ou fale conosco diretamente pelo WhatsApp.
       </p>
       <div class="d-flex row mx-auto mt-4 justify-content-center">
         <BtnForm class="col-xs-12 col-sm-12 px-0 col-md-auto" />

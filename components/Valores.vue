@@ -45,10 +45,10 @@
                 Garantia e confiança
               </h3>
               <p class="fw-500 text-justify mb-0">
-                Somos uma das maiores agências de detectives particulares do Brasil,
-                com mais de 25 anos de atuação no mercado Nacional, contamos com equipe
+                Somos uma das maiores agências de detectives privados de Portugal,
+                com mais de 25 anos de atuação no mercado Nacional, contamos com equipa
                 altamente qualificada para prestar o melhor serviço de investigação que você
-                está precisando, seja ele pessoal ou corporativo. Entre em contato conosco hoje mesmo!
+                está precisando, seja ele pessoal ou corporativo. Entre em contacto conosco hoje mesmo!
               </p>
               <div class="d-flex justify-content-xs-center mt-20 justify-content-sm-center justify-content-lg-start">
                 <btn-ligue />
@@ -64,12 +64,12 @@
             </div>
             <div class="col-lg mt-xs-40 px-0 mt-sm-40 mt-lg-0 ml-lg-35">
               <h3 class="text-uppercase text-xs-center fs-xs-23 text-sm-center text-lg-left text-vermelho fw-700">
-                Detetives dedicados
+                Detectives dedicados
               </h3>
               <p class="fw-500 text-justify mb-0">
-                Temos uma equipe de atendimento profissional e especializada, pronta para sanar todas
+                Temos uma equipa de atendimento profissional e especializada, pronta para sanar todas
                 as suas dúvidas e prestar toda a assessoria na contratação do serviço de investigação.
-                Não fique mais na dúvida, entre em contato conosco agora!
+                Não fique mais na dúvida, entre em contacto conosco agora!
               </p>
               <div class="d-flex justify-content-xs-center mt-20 justify-content-sm-center justify-content-lg-start">
                 <btn-form :name-btn="'Contato pelo formulário'" />
@@ -89,7 +89,7 @@
               </h3>
               <p class="fw-500 text-justify mb-0">
                 Ao contratar um detective privado, é importante que o material de investigação fornecido
-                seja coletado na forma correta, seguindo os critérios legais para que tenha validade. A Excellence Agência Detetives
+                seja coletado na forma correta, seguindo os critérios legais para que tenha validade. A Excellence Agência Detectives
                 fornecerá a você todo o material necessário, com fotos, vídeos e gravações para seu processo judicial.
               </p>
               <div class="d-flex justify-content-xs-center mt-20 justify-content-sm-center justify-content-lg-start">

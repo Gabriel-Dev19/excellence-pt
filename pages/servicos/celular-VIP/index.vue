@@ -24,7 +24,7 @@
         </button>
         <button class="btn col-12 border-radius-0 bg-vermelho-pouco-escuro position-relative py-20 d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CelularEspiao">
           <ion-icon class="fs-26 text-white mr-2" style="margin-top: -3px;" name="phone-portrait-outline" />
-          Celular VIP
+          Telemóvel VIP
           <div class="bolinha-shadow-top" />
           <div class="bolinha-shadow-bottom" />
         </button>
@@ -45,26 +45,26 @@
           />
         </div>
         <h3 class="text-white text-xs-center mb-3 pt-20 fw-600 text-uppercase text-sm-center text-md-left">
-          Celular VIP
+          Telemóvel VIP
         </h3>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
           Seu filho anda mentindo para você? Desconfia que ele possa estar usando drogas?
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          Temos a solução certa para você! Entre em contato conosco e saiba mais.
+          Temos a solução certa para você! Entre em contacto conosco e saiba mais.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
           Imagine você conseguindo ler as mensagens de textos e ouvir todos os áudios trocados por ele
-          em suas redes sociais, ou seja, saber tudo que  ele envia e recebe do aparelho celular imperceptivelmente,
+          em suas redes sociais, ou seja, saber tudo que  ele envia e recebe do aparelho telemóvel imperceptivelmente,
           ligar a câmera do telefone remotamente e ver tudo sem que ele desconfie, sem que descubra que
-          você está de olho no celular dele.
+          você está de olho no telemóvel dele.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          Acha que isso é coisa de filme? Não é não, a Excellence Detetives terá o prazer de lhe apresentar
+          Acha que isso é coisa de filme? Não é não, a Excellence Detectives terá o prazer de lhe apresentar
           esta tecnologia que certamente deixará suas noites de sono muito mais tranquilas.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          Mas por favor use na legalidade e compreenda que monitoramento de celular,
+          Mas por favor use na legalidade e compreenda que monitoramento de telemóvel,
           são legais somente para o monitoramento de filhos menores de idade e que você é responsável
           legal por eles .
         </p>
@@ -78,7 +78,7 @@ export default {
   components: { ContactServicos },
   layout: 'LayoutServicos',
   head: {
-    title: 'Excellence - Celular VIP - Monitoramos tudo que seu filho menor de idade faz nas redes sociais e no celular'
+    title: 'Excellence - Telemóvel VIP - Monitoramos tudo que seu filho menor de idade faz nas redes sociais e no telemóvel'
   },
   mounted () {
     if (window.location.href === 'https://excellencedetectives.pt/servicos/celular-VIP/#servicos') {

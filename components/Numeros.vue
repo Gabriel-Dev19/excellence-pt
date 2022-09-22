@@ -10,7 +10,7 @@
             Empresas atendidas
           </h5>
           <p class="fs-13 text-center mb-0 fw-500">
-            Ao longo dos 25 anos de existência de Excellence Detetives
+            Ao longo dos 25 anos de existência de Excellence Detectives
             já ajudamos diversas empresas a solucionar seus problemas e casos empresariais.
           </p>
         </div>
@@ -31,10 +31,10 @@
             9
           </h1>
           <h5 class="fw-700 mb-1 text-center">
-            Estados atendidos
+            Distritos atendidos
           </h5>
           <p class="fs-13 text-center mb-0 fw-500">
-            Nosso atendimento abrange 9 Estados brasileiros. Contamos com equipe
+            Nosso atendimento abrange 19 Distritos portugueses. Contamos com equipa
             treinada e capacitada para atender os mais variados casos investigativos.
           </p>
         </div>
@@ -52,7 +52,7 @@
         </div>
       </div>
       <div class="col-md-10 col-lg-4 mt-xs-50 mt-sm-50 mt-lg-0 mx-auto pb-20 px-0">
-        <img src="../assets/img/map-location.svg" class="img-fluid" alt="Atendimento Excellence Detetives">
+        <img src="../assets/img/map-location.svg" class="img-fluid" alt="Atendimento Excellence Detectives">
       </div>
     </div>
   </div>

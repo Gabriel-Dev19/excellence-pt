@@ -21,7 +21,7 @@
               <div>
                 <p class="text-white">
                   <i class="fa fa-quote-left mr-1 fw-400" /> Procurei um detective para que pudesse monitorar minha esposa.
-                  A Excellence Detetives fez um ótimo trabalho e todas as minhas dúvidas foram sanadas. <i class="fa fa-quote-right ml-1 fw-400" />
+                  A Excellence Detectives fez um ótimo trabalho e todas as minhas dúvidas foram sanadas. <i class="fa fa-quote-right ml-1 fw-400" />
                 </p>
                 <p class="text-italic text-white">
                   V.B, Criciúma - SC
@@ -44,7 +44,7 @@
                 <p class="text-white">
                   <i class="fa fa-quote-left mr-1 fw-400" /> Uma funcionária que estava afastada a 4 anos, resolveu me colocar
                   na justiça pedindo pensão vitalícia, porém a mesma já estava trabalhando informalmente em outra empresa.
-                  A Excellence Detetives conseguiu todas as provas necessária para que eu revertesse a situação. <i class="fa fa-quote-right ml-1 fw-400" />
+                  A Excellence Detectives conseguiu todas as provas necessária para que eu revertesse a situação. <i class="fa fa-quote-right ml-1 fw-400" />
                 </p>
                 <p class="text-italic text-white">
                   C.F.M, Curitiba - PR
@@ -55,7 +55,7 @@
               <div>
                 <p class="text-white">
                   <i class="fa fa-quote-left mr-1 fw-400" /> Suspeitava que meu filho me escondia um grande segredo.
-                  Contratei a Excellence Detetives e tudo foi descoberto. <i class="fa fa-quote-right ml-1 fw-400" />
+                  Contratei a Excellence Detectives e tudo foi descoberto. <i class="fa fa-quote-right ml-1 fw-400" />
                 </p>
                 <p class="text-italic text-white">
                   V.P, Brasília - DF

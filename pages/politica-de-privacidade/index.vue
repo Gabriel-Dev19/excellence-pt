@@ -5,7 +5,7 @@
         Política de privacidade
       </h3>
       <p class="text-justify mt-3 fw-500">
-        A sua privacidade é importante para nós. É política da Excellence Detetives respeitar a sua
+        A sua privacidade é importante para nós. É política da Excellence Detectives respeitar a sua
         privacidade em relação a qualquer informação sua que possamos coletar em nosso site, e outros
         sites que possuímos e operamos.
       </p>
@@ -68,7 +68,7 @@
       </p>
       <p class="text-justify mt-3 fw-500">
         <b>Cookies relacionados a formulários -</b>
-        Quando você envia dados por meio de um formulário como os encontrados nas páginas de contato ou nos formulários
+        Quando você envia dados por meio de um formulário como os encontrados nas páginas de contacto ou nos formulários
         de comentários, os cookies podem ser configurados para lembrar os detalhes do usuário para correspondência futura.
       </p>
       <p class="text-justify mt-3 fw-500">

@@ -3,10 +3,10 @@
     <img :src="slotImg" class="img-fluid" :alt="slotAlt">
     <div class="bg-grafite px-3 py-20">
       <h6 class="text-center text-white fw-600 text-uppercase">
-        Entre em contato
+        Entre em contacto
       </h6>
       <p class="fs-13 text-white text-center">
-        Clique em algum dos botões abaixo e entre em contato com nossos
+        Clique em algum dos botões abaixo e entre em contacto com nossos
         especialistas
       </p>
       <div class="d-flex justify-content-center">

@@ -24,7 +24,7 @@
         </button>
         <button class="btn col-12 border-radius-0 navigate py-20 d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CelularEspiao">
           <ion-icon class="fs-26 text-vermelho-escuro  mr-2" style="margin-top: -3px;" name="phone-portrait-outline" />
-          Celular VIP
+          Telemóvel VIP
         </button>
         <button class="btn col-12 border-radius-0 py-20 bg-vermelho-pouco-escuro position-relative d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CursoDetetive">
           <ion-icon class="fs-26 text-white mr-2" style="margin-top: -2px;" name="school-outline" />
@@ -41,15 +41,15 @@
         <div class="col-md-5 col-lg-4 shadow ml-md-3 mb-xs-50 mb-sm-50 mb-md-15 px-0 border-radius-10 overflow-hidden float-md-right">
           <ContactServicos
             :slot-img="require('../../../assets/img/img-curso.webp')"
-            :slot-alt="'Curso de detective privado para todo o Brasil'"
+            :slot-alt="'Curso de detective privado para todo o Portugal'"
           />
         </div>
         <h3 class="text-white text-xs-center mb-3 pt-20 fw-600 text-uppercase text-sm-center text-md-left">
           Curso de detective privado
         </h3>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          Venha se especializar com quem é especialista no ramo de Investigação Particular.
-          Realizando nosso Curso de Detetive Particular, você estará recebendo online um material
+          Venha se especializar com quem é especialista no ramo de Investigação Privada.
+          Realizando nosso Curso de Detective Privado, você estará recebendo online um material
           de qualidade para estudar em suas horas vagas, sem sair de casa e tudo dentro do seu próprio ritmo.
         </p>
         <h4 class="text-white text-xs-center mb-3 pt-20 fw-600 text-uppercase text-sm-center text-md-left">
@@ -64,15 +64,15 @@
           Certificado de conclusão
         </h4>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          Após conclusão do curso, você receberá o certificado de Detetive
-          Particular Profissional impresso e autenticado por nossa empresa.
+          Após conclusão do curso, você receberá o certificado de Detective
+          Privado Profissional impresso e autenticado por nossa empresa.
         </p>
         <h4 class="text-white text-xs-center mb-3 pt-20 fw-600 text-uppercase text-sm-center text-md-left">
           Porta documentos e carteira de detective privado
         </h4>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
           Além do certificado, ao concluir o curso receberá também a Carteira
-          e Porta Documentos de Detetive Particular Profissional.
+          e Porta Documentos de Detective Privado Profissional.
         </p>
         <h4 class="text-white text-xs-center mb-3 pt-20 fw-600 text-uppercase text-sm-center text-md-left">
           Como adquirir nosso curso?
@@ -90,7 +90,7 @@
             </h5>
             <p class="text-white mb-0 fs-sm-15">
               Enviaremos para sua casa o material didático, impresso em papel colchê 180grs,
-              com acabamento de primeira linha e você terá em suas mãos a melhor apostila sobre Detetive Particular para estudar no
+              com acabamento de primeira linha e você terá em suas mãos a melhor apostila sobre Detective Privado para estudar no
               seu tempo livre.
             </p>
             <div class="d-flex mt-20">
@@ -128,7 +128,7 @@
                 Investimento
               </h6>
               <p class="mb-0 text-white text-center fs-13">
-                O valor mínimo de investimento no curso de Detetive Particular é de apenas R$ 499,00,
+                O valor mínimo de investimento no curso de Detective Privado é de apenas R$ 499,00,
                 e você recebe o material completo.
               </p>
             </div>
@@ -173,11 +173,11 @@
           </div>
         </div>
         <h4 class="text-white text-xs-center mb-3 pt-20 mt-30 fw-600 text-uppercase text-sm-center text-md-left">
-          A Agência Excellence Detetives
+          A Agência Excellence Detectives
         </h4>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          A Excellence Agência de Detetives Particulares é uma empresa que atua no mercado da investigação
-          privada nos últimos 25 anos. Contamos com equipe altamente capacitada para trabalhar nas mais variadas
+          A Excellence Agência de Detectives Privados é uma empresa que atua no mercado da investigação
+          privada nos últimos 25 anos. Contamos com equipa altamente capacitada para trabalhar nas mais variadas
           áreas da investigação privada, utilizando métodos modernos para facilitar o andamento de cada caso.
           Como características levamos a discrição, eficiência, competência e atendimento individualizado para cada cliente.
         </p>
@@ -187,7 +187,7 @@
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
           Após anos nos dedicando na elucidação dos casos mais variados, decidimos colocar tudo que aprendemos neste material
-          didático e compartilhar com você todo o nosso conhecimento, e assim surgiu nosso Curso de Detetive Particular.
+          didático e compartilhar com você todo o nosso conhecimento, e assim surgiu nosso Curso de Detective Privado.
           Em nossa apostila você irá encontrar tudo o que precisa saber para ser um grande profissional a área de investigação
           privado, e tudo isso com preço acessível e pagamento facilitado com o seu orçamento.
         </p>
@@ -201,7 +201,7 @@
           </button>
           <b-collapse id="collapse-1" class="px-20">
             <p class="mb-0 pt-2 pb-3">
-              O nosso Curso de Detetive Particular é ministrado somente à distância e por meio de apostila,
+              O nosso Curso de Detective Privado é ministrado somente à distância e por meio de apostila,
               que é fornecida ao aluno. Neste curso o aluno terá a comodidade de aprender tudo sobre investigação
               sem sair de casa, usando suas horas livres e finais de semana, dentro do seu próprio ritmo e
               onde desejar. Além disso poderá contar com a ajuda de nossos profissionais se houver alguma
@@ -263,7 +263,7 @@
           <div v-show="ShowMsgSuccessFloat" class="col-12 mensagem-flutuante">
             <div class="col-12 px-0 d-flex justify-content-center">
               <div class="py-1 bg-success d-flex align-items-center shadow fw-500 justify-content-between text-white col-xl-6 rounded">
-                Inscrição concluída com sucesso, em breve entraremos em contato com você.
+                Inscrição concluída com sucesso, em breve entraremos em contacto com você.
                 <button class="btn pr-0 d-flex justify-content-center align-items-center pt-0 pb-0" @click.prevent="CloseMsgSuccess">
                   <i class="fa fa-times text-white fs-20 fw-400" />
                 </button>
@@ -272,7 +272,7 @@
           </div>
           <form autocomplete="off" @submit.prevent="submit">
             <div v-show="ShowMsgSuccess" class="rounded bg-success py-1 mb-3 px-2 text-white">
-              Inscrição concluída com sucesso, em breve entraremos em contato
+              Inscrição concluída com sucesso, em breve entraremos em contacto
             </div>
             <div class="d-flex row mx-auto">
               <div class="form-group col-lg px-0">

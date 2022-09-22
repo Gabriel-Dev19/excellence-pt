@@ -3,7 +3,7 @@
     <div class="col-md-6 col-lg-4 d-flex align-items-center pl-0 pr-xs-0 pr-sm-0 pr-md-10">
       <h1 class="fw-700 text-xs-center text-sm-center text-md-left text-white mb-1">
         Conheça nossas habilidades em <span class="text-vermelho">Serviços
-          de Detetive</span>
+          de Detective</span>
       </h1>
     </div>
     <div class="col-md-6 col-lg-4 mt-xs-80 mt-sm-80 mt-md-0 text-white px-xs-0 px-sm-0 pl-md-10 pr-md-0 px-lg-5">
@@ -36,7 +36,7 @@
           Casos conjugais
         </h5>
         <p class="text-white mb-0 fs-sm-15">
-          A Excellence Agência de Detetives possui larga experiência em investigação de infidelidade conjugal.
+          A Excellence Agência de Detectives possui larga experiência em investigação de infidelidade conjugal.
           Utilizamos métodos tradicionais e modernos, e contamos com equipamentos de alta tecnologia, para garantir
           a precisão das informações coletadas.
         </p>
@@ -78,7 +78,7 @@
           Provas para advogados
         </h5>
         <p class="text-white mb-0 fs-sm-15">
-          A Excellence Agência de Detetives, oferece também serviços direcionados ao atendimento da classe advocatícia.
+          A Excellence Agência de Detectives, oferece também serviços direcionados ao atendimento da classe advocatícia.
           Contamos com profissionais especializados, e durante a investigação fornecemos provas válidas
           para processos e inquéritos policiais.
         </p>
@@ -117,17 +117,17 @@
           <ion-icon class="fs-60 text-vermelho-escuro mr-2" name="phone-portrait-outline" />
         </div>
         <h5 class="text-white mt-15">
-          Celular espião para filhos
+          Telemóvel espião para filhos
         </h5>
         <p class="text-white mb-0 fs-sm-15">
-          Imagine saber tudo que seu filho faz e fala no celular dele e tudo isso ainda em tempo real sem
+          Imagine saber tudo que seu filho faz e fala no telemóvel dele e tudo isso ainda em tempo real sem
           que ele saiba de nada. Imagine observar todas as ligações telefônicas do seu filho, ler as mensagens
           de textos, ouvir áudios, enfim ter acesso a todas as suas redes sociais.
         </p>
         <div class="d-flex mt-3">
           <button class="btn btn-press-vermelho d-flex align-items-center" @click.prevent="CelularEspiao">
             <ion-icon class="fs-22 mr-2" name="bar-chart-outline" />
-            <span style="margin-bottom: -2px;">Celular VIP</span>
+            <span style="margin-bottom: -2px;">Telemóvel VIP</span>
           </button>
         </div>
       </div>
@@ -141,8 +141,8 @@
           Curso de detective privado
         </h5>
         <p class="text-white mb-0 fs-sm-15">
-          Venha se especializar com quem é especialista no ramo de Investigação Particular. Realizando nosso Curso
-          de Detetive Particular, você estará recebendo online um material de qualidade para estudar em suas horas
+          Venha se especializar com quem é especialista no ramo de Investigação Privada. Realizando nosso Curso
+          de Detective Privado, você estará recebendo online um material de qualidade para estudar em suas horas
           vagas, sem sair de casa e tudo dentro do seu próprio ritmo.
         </p>
         <div class="d-flex mt-3">
@@ -159,7 +159,7 @@
           <ion-icon class="fs-60 text-vermelho-escuro mr-2" name="call-outline" />
         </div>
         <h5 class="text-white mt-15">
-          Contate nossa equipe
+          Contate nossa equipa
         </h5>
         <p class="text-white mb-0 fs-sm-15">
           A Excellence está totalmente preparada para lhe atender seja qual for sua necessidade no
@@ -188,7 +188,7 @@ export default {
     ]
   },
   mounted () {
-    if (window.location.href === 'https://excellencedetectives.pt/servicos/#servicos') {
+    if (window.location.href === 'https://excellencedetetives.com.br/servicos/#servicos') {
       this.$smoothScroll({
         scrollTo: document.getElementById('servicos'),
         duration: 500,

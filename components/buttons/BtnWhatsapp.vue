@@ -11,7 +11,7 @@ export default {
     nameBtn: {
       type: String,
       required: false,
-      default: 'Contato pelo whatsapp'
+      default: 'Contacto pelo whatsapp'
     }
   }
 }

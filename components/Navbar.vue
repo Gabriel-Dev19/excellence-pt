@@ -58,7 +58,7 @@
                         <ion-icon class="text-vermelho fs-16 mr-2" name="send-outline" /> Localização de pessoas
                       </button>
                       <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="CelularEspiao">
-                        <ion-icon class="text-vermelho fs-16 mr-2" name="send-outline" /> Celular VIP
+                        <ion-icon class="text-vermelho fs-16 mr-2" name="send-outline" /> Telemóvel VIP
                       </button>
                       <button class="btn d-flex mt-1 align-items-center fw-500 px-0 py-0" @click.prevent="ProvasAdvogados">
                         <ion-icon class="text-vermelho fs-16 mr-2" name="send-outline" /> Provas para advogados
@@ -152,7 +152,7 @@
                 </div>
                 <button class="btn d-flex mt-10 align-items-center pl-15 bg-white border-radius-25 py-10 border-radius-0-right col-12" @click.prevent="ScrollContato">
                   <ion-icon class="fs-25 text-vermelho" name="call-outline" />
-                  <span class="ml-10 fs-19 text-vermelho fw-500">Contato</span>
+                  <span class="ml-10 fs-19 text-vermelho fw-500">Contacto</span>
                   <ion-icon class="ml-auto fs-22 text-vermelho" name="arrow-redo-outline" />
                 </button>
               </div>
@@ -224,7 +224,7 @@
             <a href="tel:+351913342032" class="d-flex row no-underline align-items-center mx-0">
               <ion-icon class="mr-1 fs-30 rotate-telefone" name="call-outline" />
               <div class="text-white">
-                <div class="fs-13 text-center">Contato</div>
+                <div class="fs-13 text-center">Contacto</div>
                 <div class="fs-13 text-center">+351 913 342 032</div>
               </div>
             </a>
@@ -361,7 +361,7 @@
                 Onde atendemos
               </span>
               <span class="text-uppercase d-block col-12 px-0 letter-spacing-05 fs-11 text-white-50 text-white">
-                Estados atendidos
+                Distritos atendidos
               </span>
               <transition enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeOut">
                 <div v-show="ShowDropdownEstados" id="dropdown-estados" class="pt-30">
@@ -462,7 +462,7 @@
             <button id="buttons-navbar" class="btn py-2 col border-radius-0" @click.prevent="ScrollContato">
               <div class="border-red" />
               <span class="text-uppercase d-block fs-15 fw-500 letter-spacing-05 text-white">
-                Contato
+                Contacto
               </span>
               <span class="text-uppercase d-block letter-spacing-05 fs-11 text-white-50 text-white">
                 Fale com a gente

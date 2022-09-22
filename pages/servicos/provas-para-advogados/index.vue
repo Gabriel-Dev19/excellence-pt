@@ -26,7 +26,7 @@
         </button>
         <button class="btn col-12 border-radius-0 navigate border-bottom py-20 d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CelularEspiao">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -3px;" name="phone-portrait-outline" />
-          Celular VIP
+          Telemóvel VIP
         </button>
         <button class="btn col-12 border-radius-0 navigate py-20 border-bottom d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CursoDetetive">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -2px;" name="school-outline" />
@@ -48,7 +48,7 @@
           Provas para advogados
         </h3>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          A Excellence Agência de Detetives, oferece também serviços direcionados ao atendimento da classe advocatícia.
+          A Excellence Agência de Detectives, oferece também serviços direcionados ao atendimento da classe advocatícia.
           Percebemos ao longo dos anos e de acordo com nossa experiencia a necessidade de aprimorar nossas habilidades
           e sistemas no sentido de atender a classe de advogados que lidam com causas cada vez mais complexas.
         </p>
@@ -114,7 +114,7 @@
         </p>
         <p class="text-white mb-2">
           <ion-icon class="text-white fs-20" style="margin-bottom: -4px;" name="checkmark-circle-outline" />
-          Localização e Confirmação de endereços para entrega de citações.
+          Localização e Confirmação de moradas para entrega de citações.
         </p>
         <h4 class="text-white text-xs-center mb-3 pt-20 fw-600 text-uppercase text-sm-center text-md-left">
           Área Empresarial

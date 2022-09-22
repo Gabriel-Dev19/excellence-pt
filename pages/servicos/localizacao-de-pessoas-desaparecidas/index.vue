@@ -26,7 +26,7 @@
         </button>
         <button class="btn col-12 border-radius-0 navigate border-bottom py-20 d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CelularEspiao">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -3px;" name="phone-portrait-outline" />
-          Celular VIP
+          Telemóvel VIP
         </button>
         <button class="btn col-12 border-radius-0 navigate py-20 border-bottom d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CursoDetetive">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -2px;" name="school-outline" />
@@ -54,7 +54,7 @@
           treinados para obtermos sucesso na investigação.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          A Excellence Agência de Detetives conta com investigadores capacitados para ajudar a você que precisando
+          A Excellence Agência de Detectives conta com investigadores capacitados para ajudar a você que precisando
           localizar um filho, um parente desaparecido, um amigo/colega, ou até mesmo um grande
           amor do passado que se afastou e você não sabe quais foram as circunstâncias.
         </p>
@@ -68,12 +68,12 @@
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
           Se você está precisando localizar pessoas por motivos menos nobres, e caso tenha sido vítima
           de golpe, ou seja, foi lesado por alguém que lhe trouxe
-          prejuízos emocionais e financeiros, entre em contato com a Excellence Agência de Detetives, iremos ajudar
+          prejuízos emocionais e financeiros, entre em contacto com a Excellence Agência de Detectives, iremos ajudar
           você com muito sigilo e discrição.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
           O trabalho de Localização de Pessoas é julgado um dos mais importantes da nossa agência
-          de Detetives Particulares, pois requer grande experiência em lidar com situações delicadas,
+          de Detectives Privados, pois requer grande experiência em lidar com situações delicadas,
           sensíveis e privadas. <a v-smooth-scroll="{duration: 500, offset: -100}" href="#contato" class="text-white text-underline">Agende um encontro</a> para que juntos possamos encontrar soluções
           para o seu caso.
         </p>

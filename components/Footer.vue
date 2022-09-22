@@ -6,7 +6,7 @@
           <img src="../assets/img/logo-excellence.webp" width="180" alt="">
         </div>
         <p class="fs-12 fw-300 mt-20">
-          Oferecemos serviços de Investigação Particular para: Casos Empresariais, Conjugais, Políticos,
+          Oferecemos serviços de Investigação Privada para: Casos Empresariais, Conjugais, Políticos,
           Busca de Bens/Veículos e muito mais!
         </p>
         <div class="mt-20 d-flex">
@@ -47,7 +47,7 @@
           <ion-icon class="fs-13 mr-1" name="compass-outline" /> Pessoas desaparecidas
         </button>
         <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="CelularEspiao">
-          <ion-icon class="fs-13 mr-1" name="phone-portrait-outline" /> Celular VIP
+          <ion-icon class="fs-13 mr-1" name="phone-portrait-outline" /> Telemóvel VIP
         </button>
         <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="CursoDetetive">
           <ion-icon class="fs-13 mr-1" name="school-outline" /> Curso de detective
@@ -139,7 +139,7 @@
     <div class="py-20 mt-60 bg-preto">
       <div class="container d-flex justify-content-center">
         <p class="mb-0 col-12 px-0 text-center fs-14">
-          &copy; 2021 - Excellence Detetives - Todos os direitos reservados |
+          &copy; 2021 - Excellence Detectives - Todos os direitos reservados |
           <a href="https://wa.me/5588996912604?text=Olá,+Gabriel+gostaria+de+receber+mais+informações+sobre+seu+trabalho+como+programador" target="_blank" rel="nopenner noreferrer">
             Desenvolvido por Gabriel Camurça <ion-icon class="fs-20" style="margin-bottom: -5px;" name="logo-vue" />
           </a>

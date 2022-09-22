@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h2 class="text-vermelho mb-1 fs-xs-25 text-uppercase fw-700 text-center">
-      Detetive privado em Évora
+      Detective privado em Évora
     </h2>
     <div class="d-flex justify-content-center">
       <ion-icon class="fs-30 text-vermelho" name="chevron-down-outline" />
@@ -12,10 +12,10 @@
         proporcionando a seus clientes <span class="text-vermelho">a verdade que eles tanto buscam.</span>
       </h3>
       <p class="fw-500 text-justify">
-        Se você está procurando um Detetive Particular em Évora acabou de encontrar!
+        Se você está procurando um Detective Privado em Évora acabou de encontrar!
       </p>
       <p class="fw-500 text-justify">
-        A Excellence Agência de Detetives Particulares está em Évora a mais de 25 anos proporcionando a seus clientes
+        A Excellence Agência de Detectives Privados está em Évora a mais de 25 anos proporcionando a seus clientes
         a verdade que eles tanto buscam, tudo isso dentro do mais absoluto sigilo e discrição. Nosso objetivo é levar o
         resultado no menor tempo possível e com a eficiência necessária.
       </p>
@@ -26,7 +26,7 @@
       <p class="fw-500 text-justify">
         Somos especialista em casos Conjugais, Empresariais, Políticos, Localização de Pessoas Desaparecidas, trabalhamos
         em parceria com advogados para obtenção de provas,
-        e muitos outros casos. Entre em contato conosco que teremos a satisfação de ajudá-lo a sanar todas as suas dúvidas.
+        e muitos outros casos. Entre em contacto conosco que teremos a satisfação de ajudá-lo a sanar todas as suas dúvidas.
       </p>
       <h4 class="text-uppercase flex-fill text-center mt-40 fs-xs-20 fw-700 text-vermelho">
         <ion-icon class="text-vermelho fs-20 mr-1" style="margin-bottom: -2px;" name="send-outline" /> Fale com um detective na sua cidade
@@ -47,11 +47,11 @@
         </div>
       </section>
       <h4 class="text-uppercase flex-fill text-center mt-60 fs-xs-20 fw-700 text-vermelho">
-        <ion-icon class="text-vermelho fs-20 mr-1" style="margin-bottom: -2px;" name="send-outline" /> Entre em contato com a Excellence!
+        <ion-icon class="text-vermelho fs-20 mr-1" style="margin-bottom: -2px;" name="send-outline" /> Entre em contacto com a Excellence!
       </h4>
       <p class="text-center fs-15 col-xl-8 px-0 mt-3 mx-auto fw-600">
-        Preencha nosso formulário de contato com seu nome, e-mail e outros dados para que possamos entrar em
-        contato com você, ou fale conosco diretamente pelo WhatsApp.
+        Preencha nosso formulário de contacto com seu nome, e-mail e outros dados para que possamos entrar em
+        contacto com você, ou fale conosco diretamente pelo WhatsApp.
       </p>
       <div class="d-flex row mx-auto mt-4 justify-content-center">
         <BtnForm class="col-xs-12 col-sm-12 px-0 col-md-auto" />
@@ -67,7 +67,7 @@ export default {
   components: { BtnForm, BtnWhatsapp },
   layout: 'LayoutSobre',
   head: {
-    title: 'Excellence - Detetive privado em Évora'
+    title: 'Excellence - Detective privado em Évora'
   },
   mounted () {
     this.$smoothScroll({

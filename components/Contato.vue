@@ -13,7 +13,7 @@
             <div v-show="ShowMsgSuccessFloat" class="col-12 mensagem-flutuante">
               <div class="col-12 px-0 d-flex justify-content-center">
                 <div class="py-1 bg-success d-flex align-items-center shadow fw-500 justify-content-between text-white col-xl-6 rounded">
-                  Mensagem enviada com sucesso, em breve entraremos em contato com você.
+                  Mensagem enviada com sucesso, em breve entraremos em contacto com você.
                   <button class="btn pr-0 d-flex justify-content-center align-items-center pt-0 pb-0" @click.prevent="CloseMsgSuccess">
                     <i class="fa fa-times text-white fs-20 fw-400" />
                   </button>
@@ -22,7 +22,7 @@
             </div>
             <form autocomplete="off" class="mt-20" @submit.prevent="submit">
               <div v-show="ShowMsgSuccess" class="rounded bg-success py-1 mb-3 px-2 text-white">
-                Mensagem enviada com sucesso, em breve entraremos em contato
+                Mensagem enviada com sucesso, em breve entraremos em contacto
               </div>
               <div class="d-flex row mx-auto">
                 <div class="form-group col-lg px-0">
@@ -76,7 +76,7 @@
                       Pessoas desaparecidas
                     </option>
                     <option value="Celular VIP">
-                      Celular VIP
+                      Telemóvel VIP
                     </option>
                     <option value="Curso de detective privado">
                       Curso de detective privado
@@ -95,21 +95,21 @@
                   </div>
                 </div>
                 <div class="form-group col-lg ml-lg-3 px-0">
-                  <input v-model="estado" type="text" class="form-control mb-2" placeholder="Estado...">
+                  <input v-model="estado" type="text" class="form-control mb-2" placeholder="Distrito...">
                   <div v-show="ShowMsgError" v-if="$v.estado.$error" class="error text-left px-2">
-                    Preencha com seu estado
+                    Preencha com seu distrito
                   </div>
                 </div>
               </div>
               <div class="d-flex row mx-auto">
                 <div class="form-group col-lg px-0">
-                  <input v-model="data_contato" type="text" class="form-control mb-2" placeholder="Data para contato...">
+                  <input v-model="data_contato" type="text" class="form-control mb-2" placeholder="Data para contacto...">
                   <div v-show="ShowMsgError" v-if="$v.data_contato.$error" class="error text-left px-2">
                     Coloque uma data para retorno
                   </div>
                 </div>
                 <div class="form-group col-lg ml-lg-3 px-0">
-                  <input v-model="horario" type="text" class="form-control mb-2" placeholder="Horário para contato...">
+                  <input v-model="horario" type="text" class="form-control mb-2" placeholder="Horário para contacto...">
                   <div v-show="ShowMsgError" v-if="$v.horario.$error" class="error text-left px-2">
                     Coloque um horário para retorno
                   </div>
@@ -145,7 +145,7 @@
         <div class="col-lg-5 col-xl-4 d-flex align-items-center bg-vermelho-pouco-escuro px-lg-30 py-30">
           <div class="col-12 px-0">
             <h4 class="text-white text-xs-center text-sm-center text-lg-center fw-600">
-              Informações de contato
+              Informações de contacto
             </h4>
             <div class="mt-30 d-flex justify-content-xs-center justify-content-sm-center justify-content-lg-center row mx-auto">
               <a href="tel:+351913342032" class="d-flex row no-underline col-sm-12 col-md-12 justify-content-xs-center justify-content-sm-center justify-content-lg-center col-lg-12 pb-10 px-0 align-items-center mx-0">
@@ -171,12 +171,6 @@
                 <a href="https://twitter.com/Excellencedet" class="d-flex align-items-center mt-3 fs-16 fw-600 text-white" target="_blank" rel="nopenner noreferrer">
                   <ion-icon class="text-white fs-27 pr-2" name="logo-twitter" /> Twitter
                 </a>
-              </div>
-              <div class="mt-35 d-flex justify-content-xs-center justify-content-sm-center justify-content-lg-center col-sm-10 px-0">
-                <span class="d-flex text-white fs-14 align-items-center">
-                  <ion-icon class="fs-xs-30 fs-sm-30 fs-md-30 fs-lg-38 mr-2 text-white" style="margin-top: -2px;" name="location-outline" />
-                  Estados de SC, PR, RS, SP, RJ, MS, GO, DF e MG
-                </span>
               </div>
               <a href="mailto:contacto@exellencedetectives.pt" target="_blank" rel="noppener noreferrer" class="d-flex justify-content-xs-center justify-content-sm-center justify-content-lg-center fs-14 text-white no-underline row no-underline mt-35 col-12 px-0 align-items-center mx-0">
                 <ion-icon class="mr-10 text-white fs-25" style="margin-top: -1px;" name="mail-outline" />

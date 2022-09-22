@@ -26,9 +26,9 @@
           Com a exce<span class="text-vermelho">ll</span>ence detectives você tem <span class="text-vermelho">profissionalismo</span>
         </h1>
         <p class="text-center col-lg-9 px-0 mt-3 mx-auto text-white">
-          A Excellence Agência Detetives nasceu em 1995 com a intenção de levar
+          A Excellence Agência Detectives nasceu em 1995 com a intenção de levar
           a nossos clientes o conhecimento de toda a verdade que estão buscando.
-          Oferecemos serviços de Investigação Particular para:
+          Oferecemos serviços de Investigação Privada para:
           Casos Empresariais, Conjugais, Políticos, Busca de Bens/Veículos,
           Localização de Pessoas Desaparecidas, Provas para advogados e muito mais!
         </p>
@@ -110,7 +110,7 @@
                   Provas para advogados
                 </h6>
                 <p class="mb-0 fs-14 fw-500 text-center">
-                  A Excellence Detetives é especializada em fornecer ajuda para advogados
+                  A Excellence Detectives é especializada em fornecer ajuda para advogados
                   coletando provas de forma legal.
                 </p>
                 <div class="d-flex mt-15 justify-content-center">

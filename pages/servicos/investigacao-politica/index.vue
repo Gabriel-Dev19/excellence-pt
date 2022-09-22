@@ -26,7 +26,7 @@
         </button>
         <button class="btn col-12 border-radius-0 navigate border-bottom py-20 d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CelularEspiao">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -3px;" name="phone-portrait-outline" />
-          Celular VIP
+          Telemóvel VIP
         </button>
         <button class="btn col-12 border-radius-0 navigate py-20 border-bottom d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CursoDetetive">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -2px;" name="school-outline" />
@@ -59,7 +59,7 @@
           assim perder credibilidade, apoio e até mesmo votos da população.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          A Excellence Detetives poderá trabalhar com conjunto com os investigadores do estado,
+          A Excellence Detectives poderá trabalhar com conjunto com os investigadores do distrito,
           ajudando o contratante a descobrir mais sobre o seu oponente, estando ele eleito,
           reeleito ou até mesmo em fase eleitoral. Agimos totalmente dentro da lei e com recursos
           autorizados e legais, além de manter total sigilo ao longo da investigação.

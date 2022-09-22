@@ -26,7 +26,7 @@
         </button>
         <button class="btn col-12 border-radius-0 navigate border-bottom py-20 d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CelularEspiao">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -3px;" name="phone-portrait-outline" />
-          Celular VIP
+          Telemóvel VIP
         </button>
         <button class="btn col-12 border-radius-0 navigate py-20 border-bottom d-flex align-items-center pl-3 text-uppercase fs-14 fw-500 text-white" @click.prevent="CursoDetetive">
           <ion-icon class="fs-26 text-vermelho-escuro mr-2" style="margin-top: -2px;" name="school-outline" />
@@ -48,7 +48,7 @@
           Investigação conjugal
         </h3>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          A Excellence Agência de Detetives possui larga experiência em investigação de
+          A Excellence Agência de Detectives possui larga experiência em investigação de
           infidelidade conjugal.  Utilizamos métodos tradicionais e modernos, e contamos
           com uma tecnologia de ponta, para garantir a precisão das informações coletadas.
         </p>
@@ -60,9 +60,9 @@
           um eventual caso de traição.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
-          A Excellence Agência de Detetives trata cada caso como único e de acordo com a necessidade de cada cliente,
+          A Excellence Agência de Detectives trata cada caso como único e de acordo com a necessidade de cada cliente,
           entendemos que esta procura acontece em um momento de estresse e decepção. Sabendo
-          disso contamos com uma equipe de detectives experientes e preparados para trabalhar no
+          disso contamos com uma equipa de detectives experientes e preparados para trabalhar no
           seu caso com máximo sigilo e discrição.
         </p>
         <h4 id="sinais-de-infidelidade-conjugal" class="text-white text-xs-center mb-3 pt-20 fw-600 text-uppercase text-sm-center text-md-left">
@@ -71,7 +71,7 @@
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
           Sinais de uma possível infidelidade são notados através de mudanças de comportamentos,
           variação de humor, alteração na rotina, falta de companheirismo, falta de interesse por
-          intimidades, viagens repentinas, uso de senhas de proteção em celulares e computadores
+          intimidades, viagens repentinas, uso de senhas de proteção em telemóveles e computadores
           e excesso de cuidado com esses dispositivos.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
@@ -80,7 +80,7 @@
         </p>
         <p class="text-white mb-2 mt-4">
           <ion-icon class="text-white fs-20" style="margin-bottom: -4px;" name="checkmark-circle-outline" />
-          Nunca há ligações feitas ou recebidas no celular do parceiro/parceira;
+          Nunca há ligações feitas ou recebidas no telemóvel do parceiro/parceira;
         </p>
         <p class="text-white mb-2">
           <ion-icon class="text-white fs-20" style="margin-bottom: -4px;" name="checkmark-circle-outline" />
@@ -116,7 +116,7 @@
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">
           Se você está passando por momentos que caminham para estes problemas, não espere mais.
-          Entre em contato com Excellence Agência de Detetives, contamos com profissionais de ampla experiência
+          Entre em contacto com Excellence Agência de Detectives, contamos com profissionais de ampla experiência
           em levantamento de provas com segurança e sigilo total.
         </p>
         <p class="text-white text-xs-justify text-sm-justify text-md-left">

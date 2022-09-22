@@ -26,14 +26,14 @@
       <p class="fw-500 text-justify">
         Somos especialista em casos Conjugais, Empresariais, Políticos, Localização de Pessoas Desaparecidas, trabalhamos
         em parceria com advogados para obtenção de provas,
-        e muitos outros casos. Entre em contato conosco que teremos a satisfação de ajudá-lo a sanar todas as suas dúvidas.
+        e muitos outros casos. Entre em contacto conosco que teremos a satisfação de ajudá-lo a sanar todas as suas dúvidas.
       </p>
       <h4 class="text-uppercase flex-fill text-center mt-40 fs-xs-20 fw-700 text-vermelho">
-        <ion-icon class="text-vermelho fs-20 mr-1" style="margin-bottom: -2px;" name="send-outline" /> Entre em contato com a Excellence!
+        <ion-icon class="text-vermelho fs-20 mr-1" style="margin-bottom: -2px;" name="send-outline" /> Entre em contacto com a Excellence!
       </h4>
       <p class="text-center fs-15 col-xl-8 px-0 mt-3 mx-auto fw-600">
         Clique no botão abaixo e ligue para um de nossos especialistas para falar mais sobre
-        o seu caso, ou vá para a nossa seção de contato e preencha o formulário de contato.
+        o seu caso, ou vá para a nossa seção de contacto e preencha o formulário de contacto.
       </p>
       <div class="d-flex row mx-auto mt-4 justify-content-center">
         <BtnForm :name-btn="'Formulário de contato'" />

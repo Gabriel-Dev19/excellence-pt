@@ -24,7 +24,7 @@ $headers .= 'Content-type: text/html; charset=iso-utf-8' . "\r\n";
 $headers .= 'From: ' . 'EXCELLENCE Detetives ' .$email_send."\r\n".
 'Reply-To: '.$email."\r\n" .
 'X-Mailer: PHP/' . phpversion();
-$message = 'Olá,<br/><br/> Você recebeu uma mensagem do site EXCELLENCE DETETIVES. Confira abaixo os detalhes da solicitação do cliente: <br/><br/>'
+$message = 'Olá,<br/><br/> Você recebeu uma mensagem do site EXCELLENCE DETECTIVES. Confira abaixo os detalhes da solicitação do cliente: <br/><br/>'
 . '<b>Nome:</b>      ' . $nome . '<br/>'	
 . '<b>E-mail:</b>    ' . $email . '<br/>'
 . '<b>Telefone:</b>  ' . $telefone . '<br/>'
@@ -37,7 +37,7 @@ $message = 'Olá,<br/><br/> Você recebeu uma mensagem do site EXCELLENCE DETETI
 . '<b>Horário para retorno:</b>  ' . $horario . '<br/>';
 
 mail($toEmail, $subject, $message, $headers);
-$showMessage = "Mensagem enviada com sucesso em breve entraremos em contato";
+$showMessage = "Mensagem enviada com sucesso em breve entraremos em contacto";
 
 $jsonData = array(
 	"message"	=> $showMessage

@@ -5,26 +5,26 @@
         Legislação para a profissão de detective privado
       </h3>
       <p class="text-justify mt-3 fw-500">
-        A Profissão de <b>Detetive Particular</b> tem suporte na legislação brasileira,
+        A Profissão de <b>Detective Privado</b> tem suporte na legislação brasileira,
         uma vez que o
         <button class="text-vermelho btn py-0 fw-600 px-0 btn-link text-underline" @click.prevent="CursoDetetive">
-          Curso de Detetive Particular
+          Curso de Detective Privado
         </button>
         torna o indivíduo capacitado para
         exercer o ofício de investigador desfrutando de todos os benefícios legais
         determinados à classe.
       </p>
       <h4 class="text-uppercase fs-xs-20 mt-60 fw-600 text-center">
-        Detetive e a CBO - Classificação Brasileira de Ocupações
+        Detective e a CBO - Classificação Brasileira de Ocupações
       </h4>
       <p class="text-justify mt-3 fw-500">
         A <b>Classificação Brasileira de Ocupações (CBO)</b> é o documento que define, identifica e sistematiza
-        os títulos e caracteriza as ocupações do mercado de trabalho brasileiro. Sua inovação e progresso
+        os títulos e caracteriza as ocupações do mercado de trabalho português. Sua inovação e progresso
         são devidos às extensas mudanças ocorridas no cenário socioeconômico e cultural do país nos anos
         mais recentes, resultando em transformações fundamentais no mercado de trabalho.
       </p>
       <p class="text-justify mt-3 fw-500">
-        O ofício de Detetive Profissional está organizado na CBO da seguinte forma:
+        O ofício de Detective Profissional está organizado na CBO da seguinte forma:
       </p>
       <p class="fw-500 text-justify mt-4">
         <ion-icon class="fs-20" style="margin-bottom: -4px;" name="checkmark-circle-outline" />
@@ -32,11 +32,11 @@
       </p>
       <p class="fw-500 text-justify">
         <ion-icon class="fs-20" style="margin-bottom: -4px;" name="checkmark-circle-outline" />
-        Ocupação: Detetive profissional
+        Ocupação: Detective profissional
       </p>
       <p class="fw-500 text-justify">
         <ion-icon class="fs-20" style="margin-bottom: -4px;" name="checkmark-circle-outline" />
-        Títulos: Agente de investigação privada, Detetive privado, Investigador privado
+        Títulos: Agente de investigação privada, Detective privado, Investigador privado
       </p>
       <p class="fw-500 text-justify">
         <ion-icon class="fs-20" style="margin-bottom: -4px;" name="checkmark-circle-outline" />
@@ -50,13 +50,13 @@
       <p class="text-justify mt-3 fw-500">
         A formação no
         <button class="text-vermelho btn py-0 fw-600 px-0 btn-link text-underline" @click.prevent="CursoDetetive">
-          Curso de Detetive Particular
+          Curso de Detective Privado
         </button>
         prepara o aluno a iniciar nesta profissão e se especializar
         em todas estas atividades relacionadas pela CBO.
       </p>
       <h4 class="text-uppercase fs-xs-20 mt-60 fw-600 text-center">
-        Detetive e a Rais - Relação anual de informações sociais
+        Detective e a Rais - Relação anual de informações sociais
       </h4>
       <p class="text-justify mt-3 fw-500">
         O gerenciamento governamental da seção do trabalho tem um significativo mecanismo de coleta
@@ -65,7 +65,7 @@
       </p>
       <p class="fw-500 text-justify mt-4">
         <ion-icon class="fs-20" style="margin-bottom: -4px;" name="checkmark-circle-outline" />
-        O provimento às necessidades de controle da atividade laboral no país;
+        O provimento às necessidades de controlo da atividade laboral no país;
       </p>
       <p class="fw-500 text-justify">
         <ion-icon class="fs-20" style="margin-bottom: -4px;" name="checkmark-circle-outline" />
@@ -99,18 +99,18 @@
         de reconhecimento do trabalhador com direito ao abono salarial PIS/PASEP.
       </p>
       <p class="mt-3 text-justify fw-500">
-        O ofício de Detetive Profissional foi catalogado pela Classificação Nacional das Atividades
+        O ofício de Detective Profissional foi catalogado pela Classificação Nacional das Atividades
         Econômicas (CNAE) na classe de Atividades de investigação, vigilância e segurança, sob o código 74.60-8
       </p>
       <p class="mt-3 text-justify fw-500">
         Ao completar o
         <button class="text-vermelho btn py-0 fw-600 px-0 btn-link text-underline" @click.prevent="CursoDetetive">
-          Curso de Detetive Particular
+          Curso de Detective Privado
         </button> e receber seu Certificado de Conclusão,
         o aluno já estará apto a iniciar numa profissão categorizada oficialmente na CNAE.
       </p>
       <h4 class="text-uppercase fs-xs-20 mt-40 fw-600 text-center">
-        Detetive e o Ministério da previdência social
+        Detective e o Ministério da previdência social
       </h4>
       <p class="mt-3 text-justify fw-500">
         A Previdência Social é uma forma de garantia da renda do contribuinte e de sua família
@@ -144,37 +144,37 @@
       <p class="mt-3 text-justify fw-500">
         Ao finalizar o
         <button class="text-vermelho btn py-0 fw-600 px-0 btn-link text-underline" @click.prevent="CursoDetetive">
-          Curso de Detetive Particular
+          Curso de Detective Privado
         </button> você estará legalmente amparado para contribuir
         com sua previdência privada, assegurando seu futuro e sua aposentadoria legal.
       </p>
       <h4 class="text-uppercase fs-xs-20 mt-60 fw-600 text-center">
-        Detetive nos âmbitos municipais, estaduais e federais
+        Detective nos âmbitos municipais, estaduais e federais
       </h4>
       <p class="mt-3 text-justify fw-500">
-        Para exercer a profissão nas prefeituras municipais, os Detetives Particulares devem cumprir
+        Para exercer a profissão nas prefeituras municipais, os Detectives Privados devem cumprir
         a lei municipal, sendo que um dos encargos é o pagamento do ISS (Imposto Sobre Serviços),
         devendo se cadastrar no Cadastro de Contribuição Mobiliária (CCM), uma vez que os códigos
         de contribuição variam em cada município.
       </p>
       <p class="mt-3 text-justify fw-500">
-        Algumas cidades brasileiras já têm as suas leis municipais, regulamentando o Dia do Detetive Particular em 26 de Junho.
+        Algumas cidades brasileiras já têm as suas leis municipais, regulamentando o Dia do Detective Privado em 26 de Junho.
       </p>
       <p class="mt-3 text-justify fw-500">
-        O Detetive também é obrigado a pagar o Instituto Nacional de Seguridade Social (INSS) para fins de aposentadoria no futuro.
+        O Detective também é obrigado a pagar o Instituto Nacional de Seguridade Social (INSS) para fins de aposentadoria no futuro.
       </p>
       <p class="mt-3 text-justify fw-500">
-        É obrigatório ao Detetive Profissional declarar os rendimentos à Secretaria da Receita Federal (Ministério da Fazenda), mediante declaração de imposto de renda, esteja atuando profissionalmente como pessoa física ou jurídica.
+        É obrigatório ao Detective Profissional declarar os rendimentos à Secretaria da Receita Federal (Ministério da Fazenda), mediante declaração de imposto de renda, esteja atuando profissionalmente como pessoa física ou jurídica.
       </p>
       <p class="mt-3 text-justify fw-500">
-        Por parte da polícia não há amparo legal quanto à exigência e/ou fiscalização do Detetive, pois essa é uma função reconhecida constitucionalmente somente às promotorias de justiça.
+        Por parte da polícia não há amparo legal quanto à exigência e/ou fiscalização do Detective, pois essa é uma função reconhecida constitucionalmente somente às promotorias de justiça.
       </p>
       <p class="mt-3 mb-0 text-justify fw-500">
         Ao se graduar no
         <button class="text-vermelho btn py-0 fw-600 px-0 btn-link text-underline" @click.prevent="CursoDetetive">
-          Curso de Detetive Particular
+          Curso de Detective Privado
         </button> você terá todos os benefícios ofertados
-        por seu município, estado e também pelo governo federal.
+        por seu município, distrito e também pelo governo federal.
       </p>
     </div>
   </div>

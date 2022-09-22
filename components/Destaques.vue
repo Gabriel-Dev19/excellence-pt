@@ -3,11 +3,11 @@
     <div class="container d-flex row mx-auto">
       <div class="col-lg-4 px-0">
         <h3 class="fw-700 text-xs-center text-sm-center text-lg-left">
-          Uma equipe <span class="text-vermelho">profissional, especializada</span> em todos os
+          Uma equipa <span class="text-vermelho">profissional, especializada</span> em todos os
           segmentos na área de <span class="text-vermelho">investigação.</span>
         </h3>
         <p class="fw-500 text-xs-justify text-sm-justify text-lg-left fs-sm-14 mt-3">
-          A Excellence Agência de Detetives vem ao longo dos anos se especializando em todos os tipos de casos, incluindo
+          A Excellence Agência de Detectives vem ao longo dos anos se especializando em todos os tipos de casos, incluindo
           <b>casos conjugais, casos empresariais, casos de funcionários desleais, cursos de detective
             privado com certificado e diversos outros serviços.
           </b>
@@ -40,7 +40,7 @@
             Casos conjugais
           </h5>
           <p class="fs-14 text-xs-justify text-sm-justify text-md-left fw-500">
-            A Excellence Agência de Detetives possui larga experiência em investigação de infidelidade conjugal.
+            A Excellence Agência de Detectives possui larga experiência em investigação de infidelidade conjugal.
             Utilizamos métodos tradicionais e modernos, e contamos com equipamentos de alta tecnologia, para garantir
             a precisão das informações coletadas.
           </p>
