@@ -144,65 +144,44 @@
         </div>
         <div class="col-lg-5 col-xl-4 d-flex align-items-center bg-vermelho-pouco-escuro px-lg-30 py-30">
           <div class="col-12 px-0">
-            <h4 class="text-white text-xs-center text-sm-center text-lg-left fw-600">
+            <h4 class="text-white text-xs-center text-sm-center text-lg-center fw-600">
               Informações de contato
             </h4>
-            <div class="mt-30 d-flex justify-content-xs-center justify-content-sm-center justify-content-lg-start row mx-auto">
-              <a href="tel:4740549146" class="d-flex row no-underline col-sm-6 col-md-5 justify-content-xs-center justify-content-sm-center justify-content-lg-start col-lg-12 pb-10 px-0 align-items-center mx-0">
+            <div class="mt-30 d-flex justify-content-xs-center justify-content-sm-center justify-content-lg-center row mx-auto">
+              <a href="tel:+351913342032" class="d-flex row no-underline col-sm-12 col-md-12 justify-content-xs-center justify-content-sm-center justify-content-lg-center col-lg-12 pb-10 px-0 align-items-center mx-0">
                 <ion-icon class="mr-1 text-white fs-25 rotate-telefone" name="call-outline" />
                 <div class="text-white">
-                  <div class="fs-13 text-center fw-500">Baln. Camboriú</div>
-                  <div class="fs-13 text-center fw-500">+55 (47) 4054-9146</div>
+                  <div class="fs-16 text-center fw-600">Entre em Contacto</div>
+                  <div class="fs-14 text-center fw-500">+351 913 342 032</div>
                 </div>
               </a>
-              <a href="tel:4840429667" class="d-flex row no-underline col-sm-6 col-md-5 justify-content-xs-center justify-content-sm-center justify-content-lg-start col-lg-12 pb-10 px-0 align-items-center mx-0">
-                <ion-icon class="mr-1 text-white fs-25 rotate-telefone" name="call-outline" />
-                <div class="text-white">
-                  <div class="fs-13 text-center fw-500">Florianópolis</div>
-                  <div class="fs-13 text-center fw-500">+55 (48) 4042-9667</div>
-                </div>
-              </a>
-              <a href="tel:4140637970" class="d-flex row no-underline col-sm-6 col-md-5 justify-content-xs-center justify-content-sm-center justify-content-lg-start col-lg-12 pb-10 px-0 align-items-center mx-0">
-                <ion-icon class="mr-1 text-white fs-25 rotate-telefone" name="call-outline" />
-                <div class="text-white">
-                  <div class="fs-13 text-center fw-500">Curitiba</div>
-                  <div class="fs-13 text-center fw-500">+55 (41) 4063-7970</div>
-                </div>
-              </a>
-              <a href="tel:4932400968" class="d-flex row no-underline col-sm-6 col-md-5 justify-content-xs-center justify-content-sm-center justify-content-lg-start col-lg-12 px-0 align-items-center mx-0">
-                <ion-icon class="mr-1 text-white fs-25 rotate-telefone" name="call-outline" />
-                <div class="text-white">
-                  <div class="fs-13 text-center fw-500">Lages</div>
-                  <div class="fs-13 text-center fw-500">+55 (49) 3240-0968</div>
-                </div>
-              </a>
-              <div class="mt-35 d-flex justify-content-xs-center justify-content-sm-center justify-content-lg-start col-sm-10 px-0">
+              <div class="mt-35 d-flex flex-column">
+                <a href="https://www.facebook.com/Excellence-Detetives-1046988452361673" class="d-flex align-items-center fs-16 fw-600 text-white" target="_blank" rel="nopenner noreferrer">
+                  <ion-icon class="text-white fs-27 pr-2" name="logo-facebook" /> Facebook
+                </a>
+                <a href="https://www.instagram.com/excellencedetetives/" class="d-flex align-items-center mt-3 fs-16 fw-600 text-white" target="_blank" rel="nopenner noreferrer">
+                  <ion-icon class="text-white fs-27 pr-2" name="logo-instagram" /> Instagram
+                </a>
+                <a href="https://br.pinterest.com/excellencedetetives/_saved/" class="d-flex align-items-center mt-3 fs-16 fw-600 text-white" target="_blank" rel="nopenner noreferrer">
+                  <ion-icon class="text-white fs-27 pr-2" name="logo-pinterest" /> Pinterest
+                </a>
+                <a href="https://www.youtube.com/channel/UCj1qP7tCKe9lCSZZApw835A" class="d-flex align-items-center mt-3 fs-16 fw-600 text-white" target="_blank" rel="nopenner noreferrer">
+                  <ion-icon class="text-white fs-27 pr-2" name="logo-youtube" /> Youtube
+                </a>
+                <a href="https://twitter.com/Excellencedet" class="d-flex align-items-center mt-3 fs-16 fw-600 text-white" target="_blank" rel="nopenner noreferrer">
+                  <ion-icon class="text-white fs-27 pr-2" name="logo-twitter" /> Twitter
+                </a>
+              </div>
+              <div class="mt-35 d-flex justify-content-xs-center justify-content-sm-center justify-content-lg-center col-sm-10 px-0">
                 <span class="d-flex text-white fs-14 align-items-center">
                   <ion-icon class="fs-xs-30 fs-sm-30 fs-md-30 fs-lg-38 mr-2 text-white" style="margin-top: -2px;" name="location-outline" />
                   Estados de SC, PR, RS, SP, RJ, MS, GO, DF e MG
                 </span>
               </div>
-              <a href="mailto:contato@excellencedetetives.com.br" target="_blank" rel="noppener noreferrer" class="d-flex justify-content-xs-center justify-content-sm-center justify-content-lg-start fs-14 text-white no-underline row no-underline mt-35 col-12 px-0 align-items-center mx-0">
+              <a href="mailto:contacto@exellencedetectives.pt" target="_blank" rel="noppener noreferrer" class="d-flex justify-content-xs-center justify-content-sm-center justify-content-lg-center fs-14 text-white no-underline row no-underline mt-35 col-12 px-0 align-items-center mx-0">
                 <ion-icon class="mr-10 text-white fs-25" style="margin-top: -1px;" name="mail-outline" />
-                contato@excellencedetetives.com.br
+                contacto@exellencedetectives.pt
               </a>
-              <div class="mt-35 d-flex">
-                <a href="https://www.facebook.com/Excellence-Detetives-1046988452361673" target="_blank" rel="nopenner noreferrer">
-                  <ion-icon class="text-white fs-27" name="logo-facebook" />
-                </a>
-                <a href="https://www.instagram.com/excellencedetetives/" class="mx-20" target="_blank" rel="nopenner noreferrer">
-                  <ion-icon class="text-white fs-27" name="logo-instagram" />
-                </a>
-                <a href="https://br.pinterest.com/excellencedetetives/_saved/" target="_blank" rel="nopenner noreferrer">
-                  <ion-icon class="text-white fs-27" name="logo-pinterest" />
-                </a>
-                <a href="https://www.youtube.com/channel/UCj1qP7tCKe9lCSZZApw835A" class="mx-20" target="_blank" rel="nopenner noreferrer">
-                  <ion-icon class="text-white fs-27" name="logo-youtube" />
-                </a>
-                <a href="https://twitter.com/Excellencedet" target="_blank" rel="nopenner noreferrer">
-                  <ion-icon class="text-white fs-27" name="logo-twitter" />
-                </a>
-              </div>
             </div>
           </div>
         </div>

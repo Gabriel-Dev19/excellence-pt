@@ -221,32 +221,11 @@
             <img src="../assets/img/logo-excellence.webp" :class="{'w-160': !NavScroll, 'w-120': NavScroll}" alt="Logo">
           </a>
           <div id="navbar-telefones" class="ml-auto pr-3 d-flex" :class="{'mt-2': !NavScroll, 'mt-0': NavScroll}">
-            <a href="tel:4740549146" class="d-flex row no-underline align-items-center mx-0">
+            <a href="tel:+351913342032" class="d-flex row no-underline align-items-center mx-0">
               <ion-icon class="mr-1 fs-30 rotate-telefone" name="call-outline" />
               <div class="text-white">
-                <div class="fs-13 text-center">Baln. Camboriú</div>
-                <div class="fs-13 text-center">+55 (47) 4054-9146</div>
-              </div>
-            </a>
-            <a href="tel:4840429667" class="d-flex row no-underline align-items-center mx-30">
-              <ion-icon class="mr-1 fs-30 rotate-telefone" name="call-outline" />
-              <div class="text-white">
-                <div class="fs-13 text-center">Florianópolis</div>
-                <div class="fs-13 text-center">+55 (48) 4042-9667</div>
-              </div>
-            </a>
-            <a href="tel:+4140637970" class="d-flex row no-underline align-items-center mx-0">
-              <ion-icon class="mr-1 fs-30 rotate-telefone" name="call-outline" />
-              <div class="text-white">
-                <div class="fs-13 text-center">Curitiba</div>
-                <div class="fs-13 text-center">+55 (41) 4063-7970</div>
-              </div>
-            </a>
-            <a href="tel:4932400968" class="d-flex row no-underline align-items-center ml-30">
-              <ion-icon class="mr-1 fs-30 rotate-telefone" name="call-outline" />
-              <div class="text-white">
-                <div class="fs-13 text-center">Lages</div>
-                <div class="fs-13 text-center">+55 (49) 3240-0968</div>
+                <div class="fs-13 text-center">Contato</div>
+                <div class="fs-13 text-center">+351 913 342 032</div>
               </div>
             </a>
           </div>

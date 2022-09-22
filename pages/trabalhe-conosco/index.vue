@@ -9,12 +9,12 @@
         Excellence Agência de Detetives e deseja se tornar um prestador de serviços para nossa agência
         faça contato pelo e-mail:
         <a
-          href="mailto: contato@excellencedetetives.com.br"
+          href="mailto: contacto@exellencedetectives.pt"
           class="text-vermelho fw-600 text-underline"
           target="_blank"
           rel="noopener noreferrer"
         >
-          contato@excellencedetetives.com.br
+          contacto@exellencedetectives.pt
         </a>
       </p>
       <p class="text-justify mt-3 fw-500">

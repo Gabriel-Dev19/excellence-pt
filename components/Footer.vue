@@ -60,32 +60,32 @@
         <h5 class="text-vermelho text-uppercase fw-600 fs-16">
           Onde atendemos
         </h5>
-        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="SantaCatarina">
-          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Santa Catarina
+        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="Aveiro">
+          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Aveiro
         </button>
-        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="Parana">
-          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Paraná
+        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="Braga">
+          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Braga
         </button>
-        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="RioGrandeDoSul">
-          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Rio Grande do Sul
+        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="Evora">
+          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Évora
         </button>
-        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="SaoPaulo">
-          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> São Paulo
+        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="Faro">
+          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Faro
         </button>
-        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="RioDeJaneiro">
-          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Rio de Janeiro
+        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="Leiria">
+          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Leiria
         </button>
-        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="DistritoFederal">
-          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Distrito Federal
+        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="Lisboa">
+          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Lisboa
         </button>
-        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="MinasGerais">
-          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Minas Gerais
+        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="Porto">
+          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Porto
         </button>
-        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="MatoGrosso">
-          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Mato Grosso do Sul
+        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="Santarem">
+          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Santarém
         </button>
-        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="Goias">
-          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Goiás
+        <button class="btn d-flex fs-13 align-items-center px-0 pb-1 pt-0" @click.prevent="Setubal">
+          <ion-icon class="fs-13 mr-1" name="navigate-outline" /> Setúbal
         </button>
       </div>
       <div class="col-lg-3 mt-xs-30 mt-sm-30 mt-lg-0">
@@ -184,40 +184,40 @@ export default {
     },
 
     // Cidades
-    SantaCatarina () {
-      this.$router.push('/detetive-particular-em-Santa-Catarina/#sobre')
+    Aveiro () {
+      this.$router.push('/detective-privado-em-Aveiro/#sobre')
       this.ScrollCidades()
     },
-    Parana () {
-      this.$router.push('/detetive-particular-no-Parana/#sobre')
+    Braga () {
+      this.$router.push('/detective-privado-em-Braga/#sobre')
       this.ScrollCidades()
     },
-    RioGrandeDoSul () {
-      this.$router.push('/detetive-particular-no-Rio-Grande-do-Sul/#sobre')
+    Evora () {
+      this.$router.push('/detective-privado-em-Evora/#sobre')
       this.ScrollCidades()
     },
-    SaoPaulo () {
-      this.$router.push('/detetive-particular-em-Sao-Paulo/#sobre')
+    Faro () {
+      this.$router.push('/detective-privado-em-Faro/#sobre')
       this.ScrollCidades()
     },
-    RioDeJaneiro () {
-      this.$router.push('/detetive-particular-no-Rio-de-Janeiro/#sobre')
+    Leiria () {
+      this.$router.push('/detective-privado-em-Leiria/#sobre')
       this.ScrollCidades()
     },
-    DistritoFederal () {
-      this.$router.push('/detetive-particular-no-Distrito-Federal/#sobre')
+    Lisboa () {
+      this.$router.push('/detective-privado-em-Lisboa/#sobre')
       this.ScrollCidades()
     },
-    MinasGerais () {
-      this.$router.push('/detetive-particular-em-Minas-Gerais/#sobre')
+    Porto () {
+      this.$router.push('/detective-privado-em-Porto/#sobre')
       this.ScrollCidades()
     },
-    MatoGrosso () {
-      this.$router.push('/detetive-particular-no-Mato-Grosso-do-Sul/#sobre')
+    Santarem () {
+      this.$router.push('/detective-privado-em-Santarem/#sobre')
       this.ScrollCidades()
     },
-    Goias () {
-      this.$router.push('/detetive-particular-em-Goias/#sobre')
+    Setubal () {
+      this.$router.push('/detective-privado-em-Setubal/#sobre')
       this.ScrollCidades()
     }
   }
