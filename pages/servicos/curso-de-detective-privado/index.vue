@@ -256,7 +256,7 @@
             </p>
           </b-collapse>
         </div>
-        <h4 id="inscricao-curso-" class="text-white text-xs-center mb-3 pt-20 mt-20 fw-600 text-uppercase text-sm-center text-md-left">
+        <h4 id="inscricao-curso-detective" class="text-white text-xs-center mb-3 pt-20 mt-20 fw-600 text-uppercase text-sm-center text-md-left">
           Faça sua inscrição em nosso curso de detective
         </h4>
         <div class="bg-light shadow py-20 border-radius-20 px-3">
@@ -390,9 +390,9 @@ export default {
         offset: -170
       })
     }
-    if (window.location.href === 'https://excellencedetectives.pt/servicos/curso-de-detective-privado/#inscricao-curso-') {
+    if (window.location.href === 'https://excellencedetectives.pt/servicos/curso-de-detective-privado/#inscricao-curso-detective') {
       this.$smoothScroll({
-        scrollTo: document.getElementById('inscricao-curso-'),
+        scrollTo: document.getElementById('inscricao-curso-detective'),
         duration: 500,
         offset: -170
       })
