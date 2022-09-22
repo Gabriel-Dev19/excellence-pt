@@ -188,7 +188,7 @@ export default {
     ]
   },
   mounted () {
-    if (window.location.href === 'https://excellencedetetives.com.br/servicos/#servicos') {
+    if (window.location.href === 'https://excellencedetectives.pt/servicos/#servicos') {
       this.$smoothScroll({
         scrollTo: document.getElementById('servicos'),
         duration: 500,
