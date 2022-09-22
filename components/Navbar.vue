@@ -388,7 +388,7 @@
                 <div v-show="ShowDropdownEstados" id="dropdown-estados" class="pt-30">
                   <div class="col-12 position-relative cursor-normal px-10 py-10 rounded shadow-lg d-flex justify-content-center bg-vermelho-pouco-escuro h-100">
                     <div id="seta-dropdown" class="bg-vermelho-pouco-escuro" />
-                    <div class="col-12 px-0">
+                    <div id="dropdownDistritos" class="col-12 px-0 pr-2" style="overflow: auto; height: 450px;">
                       <button class="btn btn-dark d-flex align-items-center col-12" @click.prevent="Aveiro">
                         <ion-icon class="fs-22 mr-1" name="location-outline" />
                         Aveiro
@@ -855,5 +855,18 @@ export default {
   .quadrado-redes-sociais{
     width: 50px;
     height: 50px;
+  }
+  #dropdownDistritos::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  #dropdownDistritos::-webkit-scrollbar-track {
+    box-shadow: inset 0px 0px 6px 6px #ed5f6d;
+    border-radius: 4px;
+  }
+
+  #dropdownDistritos::-webkit-scrollbar-thumb {
+    box-shadow: inset 0px 0px 6px 6px #a2202d;
+    border-radius: 4px;
   }
 </style>

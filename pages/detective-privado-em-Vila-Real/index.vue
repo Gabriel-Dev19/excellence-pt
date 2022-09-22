@@ -78,7 +78,7 @@ export default {
   },
   methods: {
     VilaReal () {
-      this.$router.push('/detective-privado-em-Vila-Real/detective-privado-em-VilaReal/#sobre')
+      this.$router.push('/detective-privado-em-Vila-Real/detective-privado-em-Vila-Real/#sobre')
       this.$smoothScroll({
         scrollTo: document.getElementById('sobre'),
         duration: 500,

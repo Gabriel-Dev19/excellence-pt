@@ -122,7 +122,7 @@
               </h5>
             </div>
             <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="PacosDeFerreira">
-              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Pacos de Ferreira
+              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Paços de Ferreira
             </a>
             <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="Paredes">
               <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Paredes
@@ -134,7 +134,7 @@
               <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Porto
             </a>
             <a class="d-flex col-12 mt-4 px-0 py-0 text-preto-cidades fs-sm-18 fw-600 btn align-items-center" @click.prevent="PovoaDeVarzim">
-              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Povoa de Varzim
+              <ion-icon class="fs-20 text-vermelho mr-2" name="navigate-outline" /> Póvoa de Varzim
             </a>
           </div>
         </div>
