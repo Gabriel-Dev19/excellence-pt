@@ -383,13 +383,11 @@ export default {
     title: 'Excellence - Curso de detective privado - A Excellence detectives oferece um curso completo de detective privado com certificado e credencial de detective privado'
   },
   mounted () {
-    if (window.location.href === 'https://excellencedetectives.pt/servicos/curso-de-detective-privado/#servicos') {
-      this.$smoothScroll({
-        scrollTo: document.getElementById('servicos'),
-        duration: 500,
-        offset: -170
-      })
-    }
+    this.$smoothScroll({
+      scrollTo: document.getElementById('servicos'),
+      duration: 500,
+      offset: -170
+    })
     if (window.location.href === 'https://excellencedetectives.pt/servicos/curso-de-detective-privado/#inscricao-curso-detective') {
       this.$smoothScroll({
         scrollTo: document.getElementById('inscricao-curso-detective'),

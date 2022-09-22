@@ -90,13 +90,11 @@ export default {
     title: 'Excellence - Localização de pessoas desaparecidas - Encontramos um parente distante ou um filho que você não vê a muito tempo'
   },
   mounted () {
-    if (window.location.href === 'https://excellencedetectives.pt/servicos/localizacao-de-pessoas-desaparecidas/#servicos') {
-      this.$smoothScroll({
-        scrollTo: document.getElementById('servicos'),
-        duration: 500,
-        offset: -170
-      })
-    }
+    this.$smoothScroll({
+      scrollTo: document.getElementById('servicos'),
+      duration: 500,
+      offset: -170
+    })
   },
   methods: {
     ScrollTodosOsServicos () {

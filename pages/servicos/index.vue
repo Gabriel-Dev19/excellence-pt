@@ -188,11 +188,11 @@ export default {
     ]
   },
   mounted () {
-    if (window.location.href === 'https://excellencedetectives.pt/servicos/#servicos') {
+    if (window.location.href === window.location.origin + '/servicos#servicos') {
       this.$smoothScroll({
         scrollTo: document.getElementById('servicos'),
         duration: 500,
-        offset: -170
+        offset: -100
       })
     }
   },

@@ -128,13 +128,11 @@ export default {
     title: 'Excellence - Investigação empresarial - Investigamos casos de fraude empresarial e funcionários infiéis'
   },
   mounted () {
-    if (window.location.href === 'https://excellencedetectives.pt/servicos/investigacao-empresarial/#servicos') {
-      this.$smoothScroll({
-        scrollTo: document.getElementById('servicos'),
-        duration: 500,
-        offset: -170
-      })
-    }
+    this.$smoothScroll({
+      scrollTo: document.getElementById('servicos'),
+      duration: 500,
+      offset: -170
+    })
     if (window.location.href === 'https://excellencedetectives.pt/servicos/investigacao-empresarial/#sinais-de-desvios-empresariais') {
       this.$smoothScroll({
         scrollTo: document.getElementById('sinais-de-desvios-empresariais'),

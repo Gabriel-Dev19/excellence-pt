@@ -81,13 +81,11 @@ export default {
     title: 'Excellence - Telemóvel VIP - Monitoramos tudo que seu filho menor de idade faz nas redes sociais e no telemóvel'
   },
   mounted () {
-    if (window.location.href === 'https://excellencedetectives.pt/servicos/celular-VIP/#servicos') {
-      this.$smoothScroll({
-        scrollTo: document.getElementById('servicos'),
-        duration: 500,
-        offset: -170
-      })
-    }
+    this.$smoothScroll({
+      scrollTo: document.getElementById('servicos'),
+      duration: 500,
+      offset: -170
+    })
   },
   methods: {
     ScrollTodosOsServicos () {

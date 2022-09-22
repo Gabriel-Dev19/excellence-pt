@@ -172,13 +172,11 @@ export default {
     title: 'Excellence - Provas para advogados - Auxiliamos advogados na missão de reunir provas'
   },
   mounted () {
-    if (window.location.href === 'https://excellencedetectives.pt/servicos/provas-para-advogados/#servicos') {
-      this.$smoothScroll({
-        scrollTo: document.getElementById('servicos'),
-        duration: 500,
-        offset: -170
-      })
-    }
+    this.$smoothScroll({
+      scrollTo: document.getElementById('servicos'),
+      duration: 500,
+      offset: -170
+    })
   },
   methods: {
     ScrollTodosOsServicos () {

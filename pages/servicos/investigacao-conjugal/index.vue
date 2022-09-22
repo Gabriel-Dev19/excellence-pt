@@ -136,13 +136,11 @@ export default {
     title: 'Excellence - Investigação conjugal - Investigamos casos de traição e infidelidade conjugal'
   },
   mounted () {
-    if (window.location.href === 'https://excellencedetectives.pt/servicos/investigacao-conjugal/#servicos') {
-      this.$smoothScroll({
-        scrollTo: document.getElementById('servicos'),
-        duration: 500,
-        offset: -170
-      })
-    }
+    this.$smoothScroll({
+      scrollTo: document.getElementById('servicos'),
+      duration: 500,
+      offset: -170
+    })
     if (window.location.href === 'https://excellencedetectives.pt/servicos/investigacao-conjugal/#sinais-de-infidelidade-conjugal') {
       this.$smoothScroll({
         scrollTo: document.getElementById('sinais-de-infidelidade-conjugal'),
