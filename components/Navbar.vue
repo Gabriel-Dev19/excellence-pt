@@ -296,7 +296,7 @@
                         </button>
                         <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="CelularEspiao">
                           <ion-icon class="fs-23 mr-2" name="phone-portrait-outline" />
-                          Celular VIP
+                          Telemóvel VIP
                           <ion-icon class="fs-20 ml-auto" name="arrow-redo-outline" />
                         </button>
                         <button class="btn btn-dark mt-2 d-flex align-items-center col-12" @click.prevent="CursoDetetive">
