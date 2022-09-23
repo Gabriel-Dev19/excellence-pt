@@ -156,60 +156,39 @@
                   <ion-icon class="ml-auto fs-22 text-vermelho" name="arrow-redo-outline" />
                 </button>
               </div>
-              <div class="px-15 mt-30 d-flex">
-                <a href="https://www.facebook.com/Excellence-Detetives-1046988452361673" class="quadrado-redes-sociais d-flex justify-content-center align-items-center bg-white border-radius-15">
-                  <ion-icon class="text-vermelho fs-35" name="logo-facebook" />
-                </a>
-                <a href="https://www.instagram.com/excellencedetetives/" class="quadrado-redes-sociais d-flex justify-content-center align-items-center mx-2 bg-white border-radius-15">
-                  <ion-icon class="text-vermelho fs-35" name="logo-instagram" />
-                </a>
-                <a href="https://br.pinterest.com/excellencedetetives/_saved/" class="quadrado-redes-sociais d-flex justify-content-center align-items-center bg-white border-radius-15">
-                  <ion-icon class="text-vermelho fs-35" name="logo-pinterest" />
-                </a>
-                <a href="https://www.youtube.com/channel/UCj1qP7tCKe9lCSZZApw835A" class="quadrado-redes-sociais d-flex justify-content-center align-items-center mx-2 bg-white border-radius-15">
-                  <ion-icon class="text-vermelho fs-35" name="logo-youtube" />
-                </a>
-                <a href="https://twitter.com/Excellencedet" class="quadrado-redes-sociais d-flex justify-content-center align-items-center bg-white border-radius-15">
-                  <ion-icon class="text-vermelho fs-35" name="logo-twitter" />
-                </a>
-              </div>
               <div class="px-15 mt-30">
                 <h6 class="text-white fw-600 mb-0 d-flex align-items-center justify-content-center fs-18">
-                  Contate-nos nos links abaixo
+                  Entre em contacto
                 </h6>
                 <div class="d-flex justify-content-center">
                   <ion-icon class="fs-19 text-white" name="chevron-down-outline" />
                 </div>
               </div>
               <div class="mt-10">
-                <a href="tel:4740549146" class="d-flex border-bottom row no-underline col-10 pb-10 justify-content-center px-0 align-items-center mx-auto">
-                  <ion-icon class="mr-1 text-white fs-30 rotate-telefone" name="call-outline" />
-                  <div class="text-white">
-                    <div class="fs-17 text-center fw-500">Baln. Camboriú</div>
-                    <div class="fs-17 text-center fw-500">+55 (47) 4054-9146</div>
+                <a href="tel:+351913342032" class="d-flex flex-column border-bottom border-top row no-underline col-10 pb-10 pt-10 justify-content-center align-items-center mx-auto">
+                  <div class="text-white mb-2 fs-17 text-center fw-500">Telefone</div>
+                  <div class="text-white d-flex justify-content-center">
+                    <ion-icon class="mr-1 text-white fs-30 rotate-telefone" name="call-outline" />
+                    <div class="mr-4 fs-17 text-center fw-500">+351 913 342 032</div>
                   </div>
                 </a>
-                <a href="tel:4840429667" class="d-flex row no-underline col-10 border-bottom pb-10 justify-content-center mt-10 px-0 align-items-center mx-auto">
-                  <ion-icon class="mr-1 text-white fs-30 rotate-telefone" name="call-outline" />
-                  <div class="text-white">
-                    <div class="fs-17 text-center fw-500">Florianópolis</div>
-                    <div class="fs-17 text-center fw-500">+55 (48) 4042-9667</div>
-                  </div>
-                </a>
-                <a href="tel:4140637970" class="d-flex row no-underline col-10 border-bottom pb-10 justify-content-center mt-10 px-0 align-items-center mx-auto">
-                  <ion-icon class="mr-1 text-white fs-30 rotate-telefone" name="call-outline" />
-                  <div class="text-white">
-                    <div class="fs-17 text-center fw-500">Curitiba</div>
-                    <div class="fs-17 text-center fw-500">+55 (41) 4063-7970</div>
-                  </div>
-                </a>
-                <a href="tel:4932400968" class="d-flex row no-underline col-10 justify-content-center mt-10 px-0 align-items-center mx-auto">
-                  <ion-icon class="mr-1 text-white fs-30 rotate-telefone" name="call-outline" />
-                  <div class="text-white">
-                    <div class="fs-17 text-center fw-500">Lages</div>
-                    <div class="fs-17 text-center fw-500">+55 (49) 3240-0968</div>
-                  </div>
-                </a>
+                <div class="px-15 mt-30 d-flex">
+                  <a href="https://www.facebook.com/Excellence-Detetives-1046988452361673" class="quadrado-redes-sociais d-flex justify-content-center align-items-center bg-white border-radius-15">
+                    <ion-icon class="text-vermelho fs-35" name="logo-facebook" />
+                  </a>
+                  <a href="https://www.instagram.com/excellencedetetives/" class="quadrado-redes-sociais d-flex justify-content-center align-items-center mx-2 bg-white border-radius-15">
+                    <ion-icon class="text-vermelho fs-35" name="logo-instagram" />
+                  </a>
+                  <a href="https://br.pinterest.com/excellencedetetives/_saved/" class="quadrado-redes-sociais d-flex justify-content-center align-items-center bg-white border-radius-15">
+                    <ion-icon class="text-vermelho fs-35" name="logo-pinterest" />
+                  </a>
+                  <a href="https://www.youtube.com/channel/UCj1qP7tCKe9lCSZZApw835A" class="quadrado-redes-sociais d-flex justify-content-center align-items-center mx-2 bg-white border-radius-15">
+                    <ion-icon class="text-vermelho fs-35" name="logo-youtube" />
+                  </a>
+                  <a href="https://twitter.com/Excellencedet" class="quadrado-redes-sociais d-flex justify-content-center align-items-center bg-white border-radius-15">
+                    <ion-icon class="text-vermelho fs-35" name="logo-twitter" />
+                  </a>
+                </div>
               </div>
             </aside>
           </transition>
@@ -220,13 +199,21 @@
           <a href="https://excellencedetectives.pt/">
             <img src="../assets/img/logo-excellence.webp" :class="{'w-160': !NavScroll, 'w-120': NavScroll}" alt="Logo">
           </a>
-          <div id="navbar-telefones" class="ml-auto pr-3 d-flex" :class="{'mt-2': !NavScroll, 'mt-0': NavScroll}">
-            <a href="tel:+351913342032" class="d-flex row no-underline align-items-center mx-0">
-              <ion-icon class="mr-1 fs-30 rotate-telefone" name="call-outline" />
-              <div class="text-white">
-                <div class="fs-13 text-center">Contacto</div>
-                <div class="fs-13 text-center">+351 913 342 032</div>
-              </div>
+          <div id="socialIconsTop" class="mt-10 d-flex">
+            <a href="https://www.facebook.com/Excellence-Detetives-1046988452361673">
+              <ion-icon class="fs-26" name="logo-facebook" />
+            </a>
+            <a href="https://www.instagram.com/excellencedetetives/" class="mx-15">
+              <ion-icon class="fs-26" name="logo-instagram" />
+            </a>
+            <a href="https://br.pinterest.com/excellencedetetives/_saved/">
+              <ion-icon class="fs-26" name="logo-pinterest" />
+            </a>
+            <a href="https://www.youtube.com/channel/UCj1qP7tCKe9lCSZZApw835A" class="mx-15">
+              <ion-icon class="fs-26" name="logo-youtube" />
+            </a>
+            <a href="https://twitter.com/Excellencedet">
+              <ion-icon class="fs-26" name="logo-twitter" />
             </a>
           </div>
           <div id="navbar-links" class="px-0 col-12 d-flex row mx-auto border-top" :class="{'mt-15': !NavScroll, 'mt-10': NavScroll}">
@@ -847,5 +834,17 @@ export default {
   #dropdownDistritos::-webkit-scrollbar-thumb {
     box-shadow: inset 0px 0px 6px 6px #a2202d;
     border-radius: 4px;
+  }
+
+  #socialIconsTop{
+    color: #ffffffcd;
+    letter-spacing: 0.4px;
+  }
+  #socialIconsTop a, #socialIconsTop button{
+    color: #ffffffcd;
+    letter-spacing: 0.4px;
+  }
+  #socialIconsTop a:hover, #socialIconsTop button:hover{
+    color: #ffffff;
   }
 </style>
