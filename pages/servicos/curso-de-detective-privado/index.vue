@@ -95,7 +95,7 @@
             </p>
             <div class="d-flex mt-20">
               <button class="btn btn-press-white" @click.prevent="$root.$emit('ShowModalWhatsApp')">
-                <ion-icon class="fs-22 mr-2" style="margin-bottom: -7px;" name="book-outline" /> Comprar a partir de R$ 699,00
+                <ion-icon class="fs-22 mr-2" style="margin-bottom: -7px;" name="book-outline" /> Comprar a partir de 699,00 €
               </button>
             </div>
           </div>
@@ -113,7 +113,7 @@
             </p>
             <div class="d-flex mt-20">
               <button class="btn btn-press-white" @click.prevent="$root.$emit('ShowModalWhatsApp')">
-                <ion-icon class="fs-22 mr-2" style="margin-bottom: -7px;" name="desktop-outline" /> Comprar a partir de R$ 599,00
+                <ion-icon class="fs-22 mr-2" style="margin-bottom: -7px;" name="desktop-outline" /> Comprar a partir de 599,00 €
               </button>
             </div>
           </div>
@@ -128,7 +128,7 @@
                 Investimento
               </h6>
               <p class="mb-0 text-white text-center fs-13">
-                O valor mínimo de investimento no curso de Detective Privado é de apenas R$ 499,00,
+                O valor mínimo de investimento no curso de Detective Privado é de apenas  499,00 €,
                 e você recebe o material completo.
               </p>
             </div>
@@ -252,7 +252,7 @@
           </button>
           <b-collapse id="collapse-5" class="px-20">
             <p class="mb-0 pt-2 pb-3">
-              Dependendo do seu fluxo de trabalho o detective pode alcançar remunerações de R$ 15.000 á R$ 20.000
+              Dependendo do seu fluxo de trabalho o detective pode alcançar remunerações de 15.000 € á 20.000 €
             </p>
           </b-collapse>
         </div>
