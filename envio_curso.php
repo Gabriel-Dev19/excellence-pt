@@ -8,7 +8,7 @@ $telefone_curso = $data['telefone_curso'];
 $tipo_curso = $data['tipo_curso'];
 $mensagem_curso = $data['mensagem_curso'];
 
-$toEmail = "gabrielcamurcaaa10@gmail.com";
+$toEmail = "contato@excellencedetetives.com.br";
 $email_send = "excellence@contato.com";
 $showMessage = '';
 
