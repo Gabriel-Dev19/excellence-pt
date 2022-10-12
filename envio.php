@@ -13,7 +13,7 @@ $data_contato = $data['data_contato'];
 $mensagem = $data['mensagem'];
 $tipo_pessoa = $data['tipo_pessoa'];
 
-$toEmail = "gabrielcamurcaaa10@gmail.com";
+$toEmail = "contato@excellencedetetives.com.br";
 $email_send = "excellence@contato.com";
 $showMessage = '';
 
